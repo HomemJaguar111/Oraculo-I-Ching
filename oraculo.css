@@ -13,9 +13,9 @@ header{
 button{
     margin: 0 auto;
     margin-top: 50px;
-    background-color: white;
-    border: blue 2px solid;
-    color: black;
+    background-color: black;
+    border: rgb(255, 0, 162) 2px solid;
+    color: rgb(255, 0, 162);
     height: 50px;
     width: 50px;
    
