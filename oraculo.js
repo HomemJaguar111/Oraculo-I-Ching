@@ -2,24 +2,28 @@
 
 let tentativa = 0 
 
-function trigrama(){
+let trigrama1 = [g11,gen2,gen3]
 
-        let tri1_1 = document.getElementById('tr1_1')
-        let tri1_2 = document.getElementById('tr1_2')
-        let tri1_3 = document.getElementById('tr1_3')
+let trigrama2 = [gen4,gen5,gen6]
 
-if (tentativa==1){
-        if(gen==='yin'){
-                tri1_1.document.body.style.background = 'black'
-                tri1_2.document.body.style.background = 'white'
-                tri1_3.documentbody.style.background = 'black'
+let hexagrama = [trigrama1,trigrama2]
 
-        }else {
-                tri1_1.style.background='black'
-                tri1_2.style.background='black'
-                tri1_3.style.background='black'
-        }
+
+let gen 
+let gen1
+let gen2
+let gen3
+let gen4
+let gen5
+let gen6 
+
+function iching(){
+        if (tentativa == 0){
+                alert('Clique em jogar parar sortear as moedas')
+
+
 }
+
 
 }
 
@@ -67,11 +71,11 @@ function jogar() {
            
            triCalc = (md1+md2+ md3)
                 
-           let gen = ''
+           
                 if (triCalc % 2 === 0){
                 gen ='yin'
                 } else{ gen = 'yang'}
-                
+                gen1=gen
 
                
            console.log(`A moeda 1 é ${md1}, a moeda 2 é ${md2} e a moeda 3 é ${md3}.`)
@@ -81,6 +85,12 @@ function jogar() {
            console.log("tentativa " + tentativa)
 
            console.log(gen)
+           console.log(gen1)
+
+           if (tentativa ==1){
+
+
+           }
 
 
 
