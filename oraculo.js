@@ -1,14 +1,3 @@
-
-
-let tentativa = 0 
-
-let trigrama1 = [g11,gen2,gen3]
-
-let trigrama2 = [gen4,gen5,gen6]
-
-let hexagrama = [trigrama1,trigrama2]
-
-
 let gen 
 let gen1
 let gen2
@@ -17,9 +6,20 @@ let gen4
 let gen5
 let gen6 
 
+let tentativa = 0 
+
+let trigrama1 = [gen1, ]
+
+let trigrama2 = []
+
+let hexagrama = []
+
+
+
+
 function iching(){
         if (tentativa == 0){
-                alert('Clique em jogar parar sortear as moedas')
+                alert('Clique em jogar para sortear as moedas')
 
 
 }
