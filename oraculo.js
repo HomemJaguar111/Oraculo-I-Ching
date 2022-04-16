@@ -11,8 +11,6 @@ let trigrama2 = [];
 
 let hexagrama = [];
 
-let triCalc = md1 + md2 + md3;
-
 let tri1_1 = document.getElementById("tri1_1");
 let tri1_2 = document.getElementById("tri1_2");
 let tri1_3 = document.getElementById("tri1_3");
@@ -37,7 +35,6 @@ let tri6_1 = document.getElementById("tri6_1");
 let tri6_2 = document.getElementById("tri6_2");
 let tri6_3 = document.getElementById("tri6_3");
 
-function yCalc() {}
 //console.log(`A moeda 1 é ${md1}, a moeda 2 é ${md2} e a moeda 3 é ${md3}.`);
 //console.log(`A soma é ${triCalc}`);
 
@@ -77,6 +74,36 @@ function iching() {
       tri3_2.style.backgroundColor = "white";
       tri3_3.style.backgroundColor = "black";
     }
+  } else if (tentativa == 4) {
+    if (gen == "yang") {
+      tri4_1.style.backgroundColor = "black";
+      tri4_2.style.backgroundColor = "black";
+      tri4_3.style.backgroundColor = "black";
+    } else {
+      tri4_1.style.backgroundColor = "black";
+      tri4_2.style.backgroundColor = "white";
+      tri4_3.style.backgroundColor = "black";
+    }
+  } else if (tentativa == 5) {
+    if (gen == "yang") {
+      tri5_1.style.backgroundColor = "black";
+      tri5_2.style.backgroundColor = "black";
+      tri5_3.style.backgroundColor = "black";
+    } else {
+      tri5_1.style.backgroundColor = "black";
+      tri5_2.style.backgroundColor = "white";
+      tri5_3.style.backgroundColor = "black";
+    }
+  } else if (tentativa == 6) {
+    if (gen == "yang") {
+      tri6_1.style.backgroundColor = "black";
+      tri6_2.style.backgroundColor = "black";
+      tri6_3.style.backgroundColor = "black";
+    } else {
+      tri6_1.style.backgroundColor = "black";
+      tri6_2.style.backgroundColor = "white";
+      tri6_3.style.backgroundColor = "black";
+    }
   }
 }
 
@@ -88,6 +115,8 @@ function jogar() {
   let sort1 = Math.floor(Math.random() * 10);
   let sort2 = Math.floor(Math.random() * 10);
   let sort3 = Math.floor(Math.random() * 10);
+
+  let triCalc = md1 + md2 + md3;
 
   if (sort1 % 2 == 0) {
     md1 = 2;
@@ -113,15 +142,16 @@ function jogar() {
 
   moeda3.innerHTML = md3;
 
-  if (triCalc.value % 2 === 1) {
-    gen = "yin";
-  } else {
+  if (triCalc % 2 === 1) {
     gen = "yang";
+  } else {
+    gen = "yin";
   }
 
   tentativa++;
   console.log("tentativa " + tentativa);
-  console.log(triCalc.type);
+  console.log("Soma das moedas: " + triCalc);
+  console.log("O restante da divisão das moesdas é: " + (triCalc % 2));
   console.log("gen " + gen);
 
   return iching();
