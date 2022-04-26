@@ -1,5 +1,16 @@
+body{
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
 header{
     display: flex;
+}
+section{
+    text-align: center;
 }
 .jogo{
     display: flex;
@@ -74,4 +85,22 @@ button{
 
 ol{
     list-style: none;
+}
+
+.res_oraculo{
+    height:500px ;
+    width: 400px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+.container_oraculo{
+    background-color: white;
+    color: black;
+    height:450px ;
+    width:350px ;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 1px;
 }
