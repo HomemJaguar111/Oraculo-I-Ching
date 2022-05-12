@@ -1,106 +1,91 @@
-body{
-    background-color: white;
-    
-    display: flex;
-    flex-direction: column;
-
-}
-
-header{
-    display: flex;
-}
-section{
-    text-align: center;
-}
-.jogo{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: black;
-    color: white;
-    height: 200px;
-    width:  200px;
-}
-button{
+*{
     margin: 0 auto;
-    margin-top: 50px;
-    background-color: black;
-    border: rgb(255, 0, 162) 2px solid;
-    color: rgb(255, 0, 162);
-    height: 50px;
-    width: 50px;
-   
 }
 
-.moedas{
-    position: absolute;
-    display: flex;    
-    margin-top: 135px;
-    margin-left: -24px;
-   
+body {
+  background-color: black;
 
-}
-.moeda{
-    margin: 3px;
-    background-color: gray;
-    height: 50px;
-    width: 50px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.resultado{
-    background-color: black;
-    width: 200px;
-    height: 200px;
+section {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+button {  
+    margin-bottom: 30px;
+    margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  border: rgb(255, 0, 162) 2px solid;
+  color: rgb(255, 0, 162);
+  height: 50px;
+  width: 50px;
 }
 
-.hexagrama{
+.moedas {   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    background-color: white;
     
+}
+.moeda {
+  margin: 3px;
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+}
+
+
+.trigrama {
+    max-width: 100%;
+    
+    margin: 1px;
+  
+}
+.res {
+    background-color: white;
+    display: flex;
+  width: 75px;
+  padding: 2px;
+  margin-left: 5px;
+}
+.bit {
+  background-color: gray;
+  min-height: 25px;
+  min-width: 25px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.jogo {
+  margin-left:  auto;
+  margin-right: auto;  
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 100%;
+}
+
+.sorteio{
     display: flex;
     flex-direction: column;
-    margin: 5px;
-}
-.trigrama{
-   margin: 1px;
-    
-}
-.res{
-    background-color: white;
-    display: flex;
-    width: 75px;
-    padding: 2px;
-    margin-left: 5px;
-    
-    
-}
-.bit{
-    background-color: gray;
-    height:25px ;
-    width: 25px;
-    margin-top:1px;
-    margin-bottom: 1px;
-}
-
-
-
-
-ol{
-    list-style: none;
-}
-
-.res_oraculo{
-    height:500px ;
-    width: 400px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    
-}
-.container_oraculo{
-    background-color: white;
-    color: black;
-    height:450px ;
-    width:350px ;
-    margin-left: 25px;
-    margin-top: 15px;
-    padding: 1px;
+    align-items: center;
+    justify-content: center;
 }
