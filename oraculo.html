@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="oraculo.css" />
   </head>
   <body onload="iching()">
-    
-
-    <section>
-      <!--      Trigrama 2   -->
-
+    <!--      Trigrama 2   -->
+    <header class="show" id="tabuleiro">
+        
+        <div class="trigrama2">
       <div class="trigrama">
         <div class="res" id="">
           <div class="bit" id="tri6_1"></div>
@@ -30,8 +29,16 @@
           <div class="bit" id="tri4_3"></div>
         </div>
       </div>
-      <!--        TRigrama 1    -->
+       <!--   Aqui aparece a imagem do trigrama 2   -->
+      <div class='ideograma'>
+        <p id="ideograma2"></p>
+        <img src="" alt="">
+        
+      </div>
 
+    </div>
+      <!--        TRigrama 1    -->
+    <div class="trigrama1">
       <div class="trigrama">
         <div class="res" id="">
           <div class="bit" id="tri3_1"></div>
@@ -49,22 +56,55 @@
           <div class="bit" id="tri1_3"></div>
         </div>
       </div>
+<!--   Aqui aparece a imagem do trigrama 1   -->
+      <div class='ideograma' >
+        <p id='ideograma1'></p>
+        <img src="" alt="">
+      </div>
+
+    </div>
+    
+
+    <!--Painel para mostrar as moedas sorteadas-->
+
+    <section class="moedas">
+      <div class="moeda" id="moeda1">
+        <img id="coin1" width="50px" height="50px" src="https://i.ibb.co/h2fYQSh/coin.gif" alt="coin-gif" border= '0' >
+      </div>
+
+      <div class="moeda" id="moeda2">
+        <img id="coin2" width="50px" height="50px" src="https://i.ibb.co/h2fYQSh/coin.gif" alt="coin-gif" border="0">
+        
+      </div>
+
+      <div class="moeda" id="moeda3">
+        <img id="coin3" width="50px" height="50px" src="https://i.ibb.co/h2fYQSh/coin.gif" alt="coin-gif" border="0">
+      </div>
+
     </section>
-    
-        <!--Painel para mostrar as moedas sorteadas-->
-        
-          <section class="moedas">
-            <div class="moeda" id="moeda1"></div>
-            <div class="moeda" id="moeda2"></div>
-            <div class="moeda" id="moeda3"></div>
-          </section>
-        
-    
-        <!-- Botão para sortear as moedas-->
-               <p>Clique no botão Jogar para lançar as moedas</p> 
+  
 
-        <button onclick="jogar()" id="btnJogar">Jogar</button>  
+    <!-- Botão para sortear as moedas-->
+    
+    <div class="botao" id='button'>
+      <button onclick="jogar()" id="btnJogar">Jogar</button>
+    </div>
+</header>
 
+
+
+
+
+
+
+
+
+  <main id="oraculo" class='Oraculo'>
+    <h2 id="titulo">Título do Hexagrama</h2>
+    
+    <p id="'texto">Texto do Hexagrama</p>
+
+  </main>
 
     <script src="oraculo.js"></script>
   </body>
