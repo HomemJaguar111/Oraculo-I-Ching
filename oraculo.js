@@ -19,7 +19,6 @@ let ideograma2 = document.getElementById('ideograma2')
 
 let hexagrama = 0
 
-
 let tentativa = 0
 
 let tabuleiro = document.getElementById('tabuleiro')
@@ -51,6 +50,11 @@ let tri6_3 = document.getElementById('tri6_3')
 let titulo = document.getElementById('titulo')
 let texto = document.getElementById('texto')
 
+let poemaJulgamento = document.getElementById('poemaJulgamento')
+let julgamento = document.getElementById('julgamento')
+
+let poemaImagem = document.getElementById('poemaImagem')
+let imagem = document.getElementById('imagem')
 
 let moeda1 = document.getElementById('moeda1')
 let moeda2 = document.getElementById('moeda2')
@@ -185,7 +189,7 @@ function iching() {
     console.log('Sorteio 4 = ' + gen4)
     console.log('Sorteio 5 = ' + gen5)
   } else if (tentativa == 6) {
-    tabuleiro.classList.remove('show')
+    //tabuleiro.classList.remove('show')
 
     if (gen == 'yang') {
       tri6_1.style.backgroundColor = 'black'
@@ -231,13 +235,9 @@ function iching() {
 
     ideograma2.innerHTML = `${trigrama2}`
 
-    
-    return Hexagrama()   
-  
-    
+    return Hexagrama()
   }
   return textOraculo()
-  
 }
 
 function jogar() {
@@ -482,329 +482,830 @@ function Hexagrama() {
   return textOraculo()
 }
 
-  function textOraculo(){
-    
-    switch (hexagrama) {
-      //Hexagrama 1 -
-      case 1:
-        titulo.innerHTML = 'O Criador'
-        texto = ''
-        break;
-      //Hexagrama 2 -
-      case 2:
-        titulo.innerHTML = 'O Receptivo'
-        texto = ''
-        break;
-      //Hexagrama 3 -
-      case 3:
-        titulo.innerHTML = 'A Dificuldade Inicial'
-        texto = ''
-        break;
-      //Hexagrama 4 -
-      case 4:
-        titulo.innerHTML = 'A Estultície Juvenil'
-        texto = ''
-        break;
-      //Hexagrama 5 -
-      case 5:
-        titulo.innerHTML = 'A Expectativa (A nutrição)'
-        texto = ''
-        break;
-      //Hexagrama 6 -
-      case 6:
-        titulo.innerHTML = 'O Conflito'
-        texto = ''
-        break;
-      //Hexagrama 7 -
-      case 7:
-        titulo.innerHTML = 'O Exército'
-        texto = ''
-        break;
-      //Hexagrama 8 -
-      case 8:
-        titulo.innerHTML = 'A União'
-        texto = ''
-        break;
-      //Hexagrama 9 -
-      case 9:
-        titulo.innerHTML = 'O  Poder de Cativar do Pequeno'
-        texto = ''
-        break;
-      //Hexagrama 10 -
-      case 10:
-        titulo.innerHTML = 'A Marcha'
-        texto = ''
-        break;
-      //Hexagrama 11 -
-      case 11:
-        titulo.innerHTML = 'A Paz'
-        texto = ''
-        break;
-      //Hexagrama 12 -
-      case 12:
-        titulo.innerHTML = 'A Estagnação; A Desarmonia'
-        texto = ''
-        break;
-      //Hexagrama 13 -
-      case 13:
-        titulo.innerHTML = 'Companheirismo'
-        texto = ''
-        break;
-      //Hexagrama 14 -
-      case 14:
-        titulo.innerHTML = 'A Grande propriedade'
-        texto = ''
-        break;
-      //Hexagrama 15 -
-      case 15:
-        titulo.innerHTML = 'Humildade'
-        texto = ''
-        break;
-      //Hexagrama 16 -
-      case 16:
-        titulo.innerHTML = 'Entusiasmo'
-        texto = ''
-        break;
-      //Hexagrama 17 -
-      case 17:
-        titulo.innerHTML = 'Séquito'
-        texto = ''
-        break;
-      //Hexagrama 18 -
-      case 18:
-        titulo.innerHTML = 'Recuperação do Deteriorado'
-        texto = ''
-        break;
-      //Hexagrama 19 -
-      case 19:
-        titulo.innerHTML = 'Aproximação'
-        texto = ''
-        break;
-      //Hexagrama 20 -
-      case 20:
-        titulo.innerHTML = 'A visão'
-        texto = ''
-        break;
-      //Hexagrama 21 -
-      case 21:
-        titulo.innerHTML = 'Morder de Través'
-        texto = ''
-        break;
-      //Hexagrama 22 -
-      case 22:
-        titulo.innerHTML = 'A Graça'
-        texto = ''
-        break;
-      //Hexagrama 23 -
-      case 23:
-        titulo.innerHTML = 'Desintegração'
-        texto = ''
-        break;
-      //Hexagrama 24 -
-      case 24:
-        titulo.innerHTML = 'Retorno'
-        texto = ''
-        break;
-      //Hexagrama 25 -
-      case 25:
-        titulo.innerHTML = 'Inocência'
-        texto = ''
-        break;
-      //Hexagrama 26 -
-      case 26:
-        titulo.innerHTML = 'O Poder de Cativar do Grande'
-        texto = ''
-        break;
-      //Hexagrama 27 -
-      case 27:
-        titulo.innerHTML = 'Alimentação'
-        texto = ''
-        break;
-      //Hexagrama 28 -
-      case 28:
-        titulo.innerHTML = 'Preponderância do Grande'
-        texto = ''
-        break;
-      //Hexagrama 29 -
-      case 29:
-        titulo.innerHTML = 'Abismo'
-        texto = ''
-        break;
-      //Hexagrama 30 -
-      case 30:
-        titulo.innerHTML = 'Fogo'
-        texto = ''
-        break;
-      //Hexagrama 31 -
-      case 31:
-        titulo.innerHTML = 'Influência'
-        texto = ''
-        break;
-      //Hexagrama 32 -
-      case 32:
-        titulo.innerHTML = 'Continuidade'
-        texto = ''
-        break;
-      //Hexagrama 33 -
-      case 33:
-        titulo.innerHTML = 'Retirada'
-        texto = ''
-        break;
-      //Hexagrama 34 -
-      case 34:
-        titulo.innerHTML = 'O Poder do que É Grande'
-        texto = ''
-        break;
-      //Hexagrama 35 -
-      case 35:
-        titulo.innerHTML = 'Progresso'
-        texto = ''
-        break;
-      //Hexagrama 36 -
-      case 36:
-        titulo.innerHTML = 'Oscurecimento da Luz'
-        texto = ''
-        break;
-      //Hexagrama 37 -
-      case 37:
-        titulo.innerHTML = 'Família'
-        texto = ''
-        break;
-      //Hexagrama 38 -
-      case 38:
-        titulo.innerHTML = 'Oposição'
-        texto = ''
-        break;
-      //Hexagrama 39 -
-      case 39:
-        titulo.innerHTML = 'Obstáculo'
-        texto = ''
-        break;
-      //Hexagrama 40 -
-      case 40:
-        titulo.innerHTML = 'Libertação'
-        texto = ''
-        break;
-      //Hexagrama 41 -
-      case 41:
-        titulo.innerHTML = 'Diminuição'
-        texto = ''
-        break;
-      //Hexagrama 42 -
-      case 42:
-        titulo.innerHTML = 'Aumento'
-        texto = ''
-        break;
-      //Hexagrama 43 -
-      case 43:
-        titulo.innerHTML = 'Resolução'
-        texto = ''
-        break;
-      //Hexagrama 44 -
-      case 44:
-        titulo.innerHTML = 'Vir ao Encontro'
-        texto = ''
-        break;
-      //Hexagrama 45 -
-      case 45:
-        titulo.innerHTML = 'Ajuntamento'
-        texto = ''
-        break;
-      //Hexagrama 46 -
-      case 46:
-        titulo.innerHTML = 'Impulso para Cima'
-        texto = ''
-        break;
-      //Hexagrama 47 -
-      case 47:
-        titulo.innerHTML = 'Abatimento'
-        texto = ''
-        break;
-      //Hexagrama 48 -
-      case 48:
-        titulo.innerHTML = 'O Poço'
-        texto = ''
-        break;
-      //Hexagrama 49 -
-      case 49:
-        titulo.innerHTML = 'Revolução'
-        texto = ''
-        break;
-      //Hexagrama 50 -
-      case 50:
-        titulo.innerHTML = 'O Caldeirão'
-        texto = ''
-        break;
-      //Hexagrama 51 -
-      case 51:
-        titulo.innerHTML = 'O Abalo, A Trovoada'
-        texto = ''
-        break;
-      //Hexagrama 52 -
-      case 52:
-        titulo.innerHTML = 'Imobilização'
-        texto = ''
-        break;
-      //Hexagrama 53 -
-      case 53:
-        titulo.innerHTML = 'Desenvolvimento Gradual'
-        texto = ''
-        break;
-      //Hexagrama 54 -
-      case 54:
-        hexagrama = 54
-        titulo.innerHTML = 'A Noiva'
-        texto = ''
-        break;
-      //Hexagrama 55 -
-      case 55:
-        titulo.innerHTML = 'Plenitude'
-        texto = ''
-        break;
-      //Hexagrama 56 -
-      case 56:
-        titulo.innerHTML = 'O Estrangeiro'
-        texto = ''
-        break;
-      //Hexagrama 57 -
-      case 57:
-        titulo.innerHTML = 'O Suave'
-        texto = ''
-        break;
-      //Hexagrama 58 -
-      case 58:
-        titulo.innerHTML = 'Alegria'
-        texto = ''
-        break;
-      //Hexagrama 59 -
-      case 59:
-        titulo.innerHTML = 'Dispersão'
-        texto = ''
-        break;
-      //Hexagrama 60 -
-      case 60:
-        titulo.innerHTML = 'Limitação'
-        texto = ''
-        break;
-      //Hexagrama 61 -
-      case 61:
-        titulo.innerHTML = 'A verdade interior'
-        texto = ''
-        break;
-      //Hexagrama 62 -
-      case 62:
-        titulo.innerHTML = 'Preponderância do Pequeno'
-        texto = ''
-        break;
-      //Hexagrama 63 -
-      case 63:
-        titulo.innerHTML = 'Após o Cumprimento'
-        texto = ''
-        break;
-      //Hexagrama 64 -
-      case 64:
-        titulo.innerHTML = 'Antes do Cumprimento'
-        texto = ''
-        break;
-      }
-    }
+function textOraculo() {
+  switch (hexagrama) {
+    //Hexagrama 1 -
+    case 1:
+      titulo.innerHTML = ' 1 - CHIEN - O Criador'
+
+      texto.innerHTML =
+        'Tanto o trigrama superior quanto o inferior são Chien; todas as linhas são cheias e representam o yang - forte, ativo, doador, orientado espiritual e mentalmente, consistente. <br>  Chien tem todosx os atributos do Céu, do Rei, do líder e do chefe de família. Representa alguém que usa seu poder e vitalidade construtivamente. A energia primordial transforma-se em seu oposto, depois de atingir seu clímax. Assim, o hexagama adverte quanto ao sucesso se tornando fracasso se a força for excessiva, ou arrogante.'
+
+      poemaJulgamento.innerHTML =
+        'O criador traz sublime sucesso,<br> Beneficiando a todos com peerseverância.'
+
+      julgamento.innerHTML =
+        'O significado primitivo de Chien era o de uma "força" do sucesso, fluindo das profundezas. Mas tudo depende de o indivíduo perseverar no caminho certo - isto é, fazendo o que é direito.'
+
+      poemaImagem.innerHTML =
+        'O movimento do céu é cheio de poder <br> Assim o homem nombre fortalece a si mesmo.'
+
+      imagem.innerHTML =
+        'O céu move-se sem cessar. Isto dever servir de exemplo. Torne-se a personalidade forte, eficaz e duradoura.'
+
+      break
+    //Hexagrama 2 -
+    case 2:
+      titulo.innerHTML = '2 - KUN - O Receptivo'
+
+      texto.innerHTML =
+        'Cada linha representa o escuro, a terra, a mãe, o yin, a devoção. Não é uma fraqueza, mas força primordial, como Chien. Estes dois primeiros não são opostos. São o rei e a rainha, o pai e a mãe. Só quando o passivo é liderado pelo criador, pode resultar uma construção perfeita'
+
+      poemaJulgamento.innerHTML =
+        'O receptivo opera um sublime sucesso e beneficia pela perseverança de um jumento. <br> O homem nobre deve empreender algo, mas se perde. <br> Mas acaba recebendo a orientação. <br> Encontre amigos no Sul e no Oeste; evite-os no Norte e no Leste. <br> Uma perseverança pacífica traz a fortuna.'
+
+      julgamento.innerHTML =
+        'A qualidade de julgamento do Receptivo(perseverança) é bem diferente da persistência ativa de Chien, e indica circunstâncias mais materiais. Aceite orientação e apoio. <br> O Sul e o Oeste simbolizam esforço e trabalho. Assim, o Norte e o Leste ou comando, e planejamento em grupo, devem ser rejeitados em favor da solidão.'
+
+      poemaImagem.innerHTML =
+        'A condição da terra é a devoção. <br> Assim o homem nobre, de grande caráter, sustenta o mundo.'
+
+      imagem.innerHTML =
+        'A Terra sustenta tudo: de bom e de mau. O homem nobre é puro, vasto e de caráter profundo, assim, pode aceitar e suportar sua situação.'
+
+      break
+    //Hexagrama 3 -
+    case 3:
+      titulo.innerHTML = '3 - CHUN - A Dificuldade Inicial'
+
+      texto.innerHTML =
+        'Kan em cima e Chen embaixo trazem nuvens, água, movimento e trovão. Tempo de tensão. <br> Chun é o tempo em que os brotos empurram a terra dura com grande dificuldade. <br> É preciso ser muito paciente'
+
+      poemaJulgamento.innerHTML =
+        'A Dificuldade Inicial opera um sublime sucesso e favorece pela persevrança. <br> Nada deve ser empreendido, é preciso engajar auxiliares.'
+
+      julgamento.innerHTML =
+        'Tudo está disforme, convulsionado. Se se perseverar, um grande sucesso poderá se seguir. Entretanto, a ação precipitada ou prematura acarretará o desastre.'
+
+      poemaImagem.innerHTML =
+        'Nuvens e trovão: a dificuldade inicial. <br> O homem nobre faz a ordem a partir do caos '
+
+      imagem.innerHTML =
+        'As nuvens de tempestadde têm forma definida: deve-se procurar discernir o que é o quê, e ficar pronto para tirar vantagem de melhores condições após a chuva.'
+
+      break
+    //Hexagrama 4 -
+    case 4:
+      titulo.innerHTML = 'A Estultície Juvenil'
+
+      texto.innerHTML =
+        'O hexagrama implica imaturidade e pureza. O trigrama superior, Ken, significa o filho mais moço, ou a montanha; Kan, embaixo, o perigo, ou a água. Daí as imagens de uma fonte ao pé da montanha, e uma criança tola. A juventude requer instrução e no todo, este hexagrama significa o ensinamento, e em particular, ser paciente e tolerante.'
+
+      poemaJulgamento.innerHTML =
+        'A estultície juvenil tem o sucesso. <br> Não sou eu quem procura o jovem tolo, <br> O jovem tolo é quem me procura. <br> À primeira pergunta, respondo; <br> Se ele insistir, é falta de respeito. <br> Se ele me desrespeita, não lhe respondo mais. <br> A perseverança é vantajosa.'
+
+      julgamento.innerHTML =
+        'Apresenta-se uma ideia dupla: o oráculo e sua atitude perante quem faz a pergunta, e a ideia de pessoas que precisam aprender algo. O perguntador imaturo deve aprender a aceitar a relação entre mestre e discípulo, estabelecida no uso do I Ching. <br> Analogamente, o conselho sobre conduta é que um bom estudante é respeitoso, trabalhador e domina cada passo antes de dar o próximo.'
+
+      poemaImagem.innerHTML =
+        'Ao pé da montanha, jorra uma fonte, <br> Símbolo da juventude.<br> O homem nobre cultiva o seu caráter. <br Sendo profundo em todos os seus atos.>'
+
+      imagem.innerHTML =
+        'Como um bom estudante, é preciso cultivar o róprio caráter com clareza e perseverança, e uma correção vigorosa.'
+
+      break
+    //Hexagrama 5 -
+    case 5:
+      titulo.innerHTML = '5 - HSU - A Expectativa (A nutrição)'
+
+      texto.innerHTML =
+        'O trigrama Han (a água; o perigo) acima de Chien (o Céu; a força) indica nuvens de chuva no Céu. Choverá, mas entrementes deve-se esperar. Use o tempo para se preparar. A ideia é reforçada pela expectativa, originada no antigo ideograma Hsu, reprensentando um meditabundo sentado. A contemplação também contém a ideia de nutrição do núcleo da energia vital (o prana ou chi) no centro de gravidade do corpo. É preciso proceder cuidadosamente, mas com ambição. Tenha consciência da competição, mas não destrate os competidores.'
+
+      poemaJulgamento.innerHTML =
+        'Expectativa. Se sincera, conquistará a glória. <br> A perseverança traz a fortuna. <br> É vantajoso cruzaar as grandes águas.'
+      julgamento.innerHTML =
+        'A certeza interior e o reconhecimento das coisas tais como são em si é a real "sinceridade". Esta deve ser seguida por uma ação resoluta e coerente, e aplicação. É vantajoso viajar, ou tomar uma grande decisão, ou fazer grandes mudanças.'
+
+      poemaImagem.innerHTML =
+        'Nuvens sobem ao Céu: imagem da expectativa. <br> O homem nobre, comendo e bebendo, está contente.'
+
+      imagem.innerHTML =
+        'A chuva vem depois das nuvens, mas só podemos esperar, se formos sábios, alimentamos nosso corpo com a comida adequada, e nossa mente pelo cultivo da tranquilidade. Então, quando nossa hora chegar, estaremos prontos, e enquanto isso, estaremos contentes.'
+
+      break
+    //Hexagrama 6 -
+    case 6:
+      titulo.innerHTML = '6 - SUNG - O Conflito'
+
+      texto.innerHTML =
+        'O movimento ascendente de Chien (o Céu) conflita com o fluxo descendente da água (Kan, o trigrama de baixo). Uma diferença fundamental é exressa e ampliada pelos atributos dos trigramas - a força em cima da astúcia, sugerindo uma natureza belicosa.'
+
+      poemaJulgamento.innerHTML =
+        'Conflito: você é sincero, <br> a despeito de encontrar obstrução. <br> Uma parada a meio caminho traz a boa fortuna; <br> Levar a questão ao fim traz o infortúnio. <br> É vantajoso ver o grande homem. <br> Mas não é vantajoso cruzar as grandes águas.'
+
+      julgamento.innerHTML =
+        'O conflito se desenvolve pela convicção - em outras palavras, pelo egoísmo. Tenha a mente lúcida e justa para chegar a um compromisso, ou desistir. Isto aplica-se especialmente se se teima num ponto de vista. Procure arbítrio ou conselho com uma autoridade superior, ou com uma pessoa mais sensata. Quando as energias estão divididas, não tente empreendimentos que exigem energias concentradas.'
+
+      poemaImagem.innerHTML =
+        'O Céu e a Água se movem em sentidos opostos. <br> Símbolo do Conflito. <br> Assim o homem nobre: <br> Cuidadosamente  considera o princípio de todo empreendimento.'
+
+      imagem.innerHTML =
+        'O conflito é latente. Só pela profunda e meticulosa ordenação de objetivos, antecipadamente, pode-se prevenir sua aparição.'
+
+      break
+    //Hexagrama 7 -
+    case 7:
+      titulo.innerHTML = '7 - GHIH - O Exército'
+
+      texto.innerHTML =
+        'O exército representa forças acumuladas, com um objetivo em vista. A Água (o trigrama inferior, Khan) apanhada pela Terra (Kun, em cima) representa forças poderosas controladas por uma disciplina comum ou pela direção de alguém com autoridade. <br> A linha cheia representa o chefe. Porém, como ocupa o trigrama inferior, não um chefe de estado. Portanto, deve agir honestamente e confiavelmente. Também deve ganhar o respeito de seus homens para que o exército continue eficaz.'
+
+      poemaJulgamento.innerHTML =
+        'O Exército. O exército deve ter esperança <br> E um líder forte. <br> Boa fortuna, desonra nenhuma.'
+
+      julgamento.innerHTML =
+        'A situação requer mão forte. Porém, o líder atualmente não está suficientemente envolvido com os que o rodeiam. Deve atrair outros demonstrando necessidades comuns, e sua capacidade de liderar.'
+
+      poemaImagem.innerHTML =
+        'Em meio à Terra, a Água, <br> Símbolo do Exército. <br> O homem nobre aumenta seu séquito <br> Por sua benevolência para com o povo.'
+
+      imagem.innerHTML =
+        'Só com uma política justa em tempo de paz um líder terá apoio na guerra. Analogamente, uma sensação de  confiança e valores comuns são necessários entre os que procuram desfazer suas diferenças, ou engajar-se num empreendimento comum.'
+      break
+    //Hexagrama 8 -
+    case 8:
+      titulo.innerHTML = '8 - PI - A União'
+
+      texto.innerHTML =
+        'Em cima, Kan, a Água; embaixo Kun, a Terra. Esta mistura natural indica uma pessoa ou uma época de cooperação e boa vontade. Indica a boa fortuna em assuntos pessoais e negócios, desde que haja fé, comprometimento e honestidade.'
+
+      poemaJulgamento.innerHTML =
+        'A União: boa fortuna. <br> Questione mais uma vez o oráculo. <br> Seu espírito estará grande, firme e perseverante? <br> Caso for, não haverá erro. <br> O que hesitar, poderá chegar tarde demais. <br> Infortúnio.'
+
+      julgamento.innerHTML =
+        'Toda união requer um centro forte. Um grupo estabelece suas relações de maneira clara e definida, e os retardatários não poderão compartilhar a mesma profundidade de união que os primeiros a chegar. Aceite as restrições desta união se quiser receber seus benefícios - de outro modo, abandone-o.'
+
+      poemaImagem.innerHTML =
+        'Terra sobre Água, <br> Símbolo da União. <br> Os antigos reis estabeleceram os estados feudais <br> Cultivando relações amigáveis com seus barões.'
+
+      imagem.innerHTML =
+        'A Água é absorvida pela Terra e forma assim uma união natural. Assim os reis conferiam terras a seus nobres, trabalhando assiduamente para garantir que todos entendessem as vantagens desta união.'
+
+      break
+    //Hexagrama 9 -
+    case 9:
+      titulo.innerHTML = '9 - HSIAO TCHU - O  Poder de Cativar do Pequeno'
+
+      texto.innerHTML =
+        'A imagem do Vento, o Suave (Sun, em cima), soprando pelo Céu(Chien, embaixo), sugere a pequena força cativando a grande. Uma pessoa forte é impedida por entraves pequenos, forçando-a a um compromisso. Um novo empreendimento pode assim ser restringido. Só pela suavidade uma tal situação poderá ter sucesso.'
+
+      poemaJulgamento.innerHTML =
+        'O Poder de Cativar do Pequeno: sucesso. <br> Do Oeste, nuvens espessas, mas não há chuva.'
+
+      julgamento.innerHTML =
+        'A perspectiva da chuva sugere um resultado frutífero, mas as nuvens não a liberam. Só pelo "poder do pequeno" - amizade e métodos sutis - podemos influenciar aos outros, ou aos acontecimentos.'
+
+      poemaImagem.innerHTML =
+        'O Vento soprando pelo Céu simboliza o Poder de Cativar do Pequeno. <br> Assim o homem superior refina seu caráter e capacidades.'
+
+      imagem.innerHTML =
+        'Soprada pelas forças das circunstâncias, uma pessoa pode fazer pouco dde significado duradouro, mas as condições permitem que nos expressemos abertamente em coisas pequenas, para os que nos cercam. É preciso usar o tempo para um auto aperfeiçoamento.'
+
+      break
+    //Hexagrama 10 -
+    case 10:
+      titulo.innerHTML = '10 - LIU - A Marcha'
+
+      texto.innerHTML =
+        'O trigrama Chien (o pai, em cima), seguido por Tui (a filha mais jovem, embaixo), sugere a relação correta entre os dois, de acordo com o costume chinês. Assim, o hexagrama aconsela a agir civilmente, de acordo com as convenções estabelecidas. <br> Alternativamente, o simbolismo do trigrama inferior, de um tigre, sugere um homem andando sobre a cauda do tigre. Implica a necessidade de cuidado em circunstâncias perigosas e inusitadamente, o fraco sendo capaz de prevalecer sobre o forte.'
+
+      poemaJulgamento.innerHTML =
+        'Marchar. O homem caminha sobre a caudad do tigre. <br> E este não o morde. Sucesso.'
+
+      julgamento.innerHTML =
+        'Uma inusitada proximidade de elementos fortes e suaves - pode representar um solitário, forçado ao contato com pessoas que considera como inferiores a si. Alternativamente, pode-se estar tratando com o imprevisível, com forças perigosas. Aja com uma dignidade cativante, e não perca a sensibilidade.'
+
+      poemaImagem.innerHTML =
+        'O Céu em cima, o LAgo embaixo, símbolo da Marcha. <br> O homem nobre discrimina entre o elevado e o baixo. <br> Assim concorda com a vontade do povo.'
+
+      imagem.innerHTML =
+        'O ideal confuciano era uma sociedade em que o "status" exterior fosse reflexo do valor interior. Este ideal deve nos incentivar a nos comportarmos em relação os outros de acordo com uma profunda aprecisação de sua natureza. De outro modo, pode-se tornar irrealista e preconcebido.'
+
+      break
+    //Hexagrama 11 -
+    case 11:
+      titulo.innerHTML = '11 - TAI - A Paz'
+
+      texto.innerHTML =
+        'O Líder, ou pai (Chien), suporta o povo, ou a mãe (Kun). Isto indica uma sólida força criando a harmonia com o mais fraco, sendo flexível e conciliador. Em geral, o hexagrama indica condições harmoniosas.'
+
+      poemaJulgamento.innerHTML =
+        'A Paz. O pequeno vai, <br> O grande vem. <br> Fortuna: sucesso.'
+
+      julgamento.innerHTML =
+        'Os elementos fortes e criadores ocupam posição central: as trÊs linhas inferiores, e, assim, estão nos controle. Há um sentimento de profunda harmonia, tanto nos relacionamentos quanto nas circunstâncias.'
+
+      poemaImagem.innerHTML =
+        'Céu e Terra estão unidos, simbolizando a Paz. <br> O rei divide e perfaz os caminhos de Céu e Terra. <br> Favorece e ordena os dons de Céu e Terra. <br> Em benfício do povo.'
+
+      imagem.innerHTML =
+        'A unidade produz a paz e a prosperidade. Os governantes organizam a atividade de acordo com uma divisão apropriada do tempo e do espaço, de modo que possam se beneficiar e estar em harmonia com a natureza. Por mais preocupado que você esteja em seguir o costume ou "ter em mente apenas os melhores interesses dos outros", os motivos facilmente podem tornar-se egoístas, se não se prestar atenção às verdades interiores que nos recordam sempre o universal.'
+
+      break
+    //Hexagrama 12 -
+    case 12:
+      titulo.innerHTML = '12 - P.I - A Estagnação; A Desarmonia'
+
+      texto.innerHTML =
+        'O decaimento, a pobreza e a desunião são indicados por este hexagrama. Aqui, Chien (o chefe, a força) em cima é sustentado por Kun (o fraco, a força receptiva). Nenhum resultado criativo é possível. Assim, pode indicar alguém forte, ruidoso e arrogante xteriormente, mas com pouco valor interior para apoiar tal comportamento.'
+
+      poemaJulgamento.innerHTML =
+        'Desarmonia. Nada é benéfico, <br> Mesmo com a perseverança do homem nobre. <br> O grande vai; o pqueno vem.'
+
+      julgamento.innerHTML =
+        'As forças criadoras e ordenadoras intrínsecas às situações parecem escoar; a confusão e a acrimônia começam. Em geral, não há vantagem na ação. Concentre-se em manter os negócios estáveis, humilde e corretamente.'
+
+      poemaImagem.innerHTML =
+        'Céu e Terra em desunião; símbolo da Desarmonia. <br> Portanto, o homem nobre se retira em seu valor íntimo, <br> Evitando o perigo. <br> E recusa favor e fortuna.'
+
+      imagem.innerHTML =
+        'Numa situação que segue princípios pequenos, mesquinhos, e administrada por pessoas inescrupulosas ou inferiores, não se deve ser atraído ao envolvimento pelo lucro fácil, seja financeiro ou social. <br> Este hexagrama é como o "princípio saturnino", da astrologia, ou como a ideia taoísta de que "a semente da prosperidade oculta-se no infortúnio". Aceitando as dificuldades enquanto se luta por conservar a pureza, nossa natureza é refinada, e imperceptivelmente acumula-se a boa fortuna.'
+
+      break
+    //Hexagrama 13 -
+    case 13:
+      titulo.innerHTML = '13 - TONG JEN - Companheirismo'
+
+      texto.innerHTML =
+        'O trigrama Chien acima de Li significa o Céu, com o Fogo embaixo: duas forças complementares em relação harmoniosa. A ideia do Sol brilhando no Céu (beneficiando assim especialmente os lavradores, e as comunidades em geral) também é indicada. A linha passiva em posição central significa uma influência suave em meio às pessoas - a sabedoria e a preocupação por tudo o que mantém as pessoas unidas.'
+
+      poemaJulgamento.innerHTML =
+        'Companheirismo em campo aberto: sucesso. <br> É vantajoso atravessaras grandes águas. <br> É vantajosa a perseverança do homem nobre.'
+
+      julgamento.innerHTML =
+        'O julgamento sublinha a consciÊncia da pessoa sobre os princípios construtivos subjacentes À sociedade, e a unidade do companheirismo em sociedade. Isto não é uma crença ingÊnua, mas uma compreensão de que toda cooperação social e toda amizade (a despeito de uma diversidade infinita) requer objetivos compartilhados e atividades comuns. Esta compreensão, quando compartilhada, pode promover grandes obras sob a liderança de pessoa cheia de princípios e organização.'
+
+      poemaImagem.innerHTML =
+        'O Fogo atinge o Céu: imagem do Companheirismo. <br> Assim o homem nobre organiza comunidades, <br> E estabelece distinções.'
+
+      imagem.innerHTML =
+        'Céu e Fogo têm naturezas distintas, mas ambos movem-se na mesma direção. PAra ordenar a sociedade, os líderes devem ceder à diversidade das miríades de seus componentes, mas organizá-los de acordo com princípios universais. A ideia de uma enorme energia encerrada em duas forças está aqui sublinhada, com a implicação de que pode facilmente tornar-se incontrolável.'
+
+      break
+
+    //Hexagrama 14 -
+    case 14:
+      titulo.innerHTML = '14 - TA IU - A Grande propriedade'
+
+      texto.innerHTML =
+        'O FOgo (Liu) no Céu (Chien) simboliza a glória e as riquezas. A linha passiva de Li na posição de cima sugere que um grande sucesso foi obtido por meio da humildade.'
+
+      poemaJulgamento.innerHTML = 'A Grande PRopriedade: sublime sucesso.'
+
+      julgamento.innerHTML =
+        'A quinta linha é "dona" das outras - a fraca possui as fortes por sua virtude não egoísta. É tempo de força regulada e harmoniosa, e do seu desfrute.'
+
+      poemaImagem.innerHTML =
+        'O Fogo no Céu: símbolo da Grande Propriedade. <br> O homem nobre, reprimindo o mal e encorajando o bem, <br> é abençoado por seguir as leis do Céu.'
+
+      imagem.innerHTML =
+        'Quando se é rico, quer na felicidade, quer nas riquezas, é preciso conduzir-se com o mesmo cuidado que quando em perigo. De outro modo, a felicidade se transforma em permissividade e o mau   caráter gerará o mal. O Sol está alto no Céu e começa logo a decair. Se se sentir que está faltando algo, é uma falha espiritual.'
+
+      break
+    //Hexagrama 15 -
+    case 15:
+      titulo.innerHTML = '15 - KIEN - Humildade'
+
+      texto.innerHTML =
+        'Uma montanha (Ken) atrás da Terra (Kun) implica uma grande acidente geográfico em meio a uma planície. Isto significa a verdadeira modéstia, destacando-se bem para que todos a vejam. O atributo de Ken, enquanto filho mais jovem do Criador, implica as qualidades e propriedades espirituais trazidas à Terra. A real modéstia funciona examinando-se a própria situação e o próprio psiquismo, e ordenando a estes de acordo com os princípios mais elevados. A Terra acima da Montanha também sugere uma qualidade simples e sem sofisticação de um espírito elevado.'
+
+      poemaJulgamento.innerHTML =
+        'A Humildade cria o sucesso. <br> O homem nobre persevera até o fim.'
+
+      julgamento.innerHTML =
+        'A polidez e a modéstia geram o sucesso e mantém um homem, uma vez tendo atingido riqueza ou posição. O sábio sempre se lembra disto nos altos e baixos da vida.'
+
+      poemaImagem.innerHTML =
+        'Uma Montanha no centro da Terra: símbolo da Humildade. <br> O homem nobre reduz o excessivo, e aumenta o que é deficiente; <br> Assim, pesa e equilibra.'
+
+      imagem.innerHTML =
+        'As montanhas gradualmente se desgastam: os vales são enchidos por geleiras e inundações. Assim, a humildade trabalha imperceptivelmente, constantemente. Por esta razão, os chineses viam a humildade acima de qualquer outra virtude. <br> O sábio, entendendo que o fado é inelutável, ajusta as condições, e a si mesmo para evitar extremos, e assim mantém uma vida harmoniosa. Se isto for feito por motivos mesquinhos, o resultado é uma preocupação e restrições constantes.'
+
+      break
+
+    //Hexagrama 16 -
+    case 16:
+      titulo.innerHTML = '16 - YU - Entusiasmo'
+
+      texto.innerHTML =
+        'Chen (o Trovão; o estimulante) sobre Kun (a Terra) indica enorme criatividade, ou entusiasmo; como uma música poderosa que a todos inspira. O conselho de Yu e aplicar energia sem cuidados ou preparação. O "lado negro" aqui é uma tendência a usar excesso de força.'
+
+      poemaJulgamento.innerHTML =
+        'EEntusiasmo. É vantajoso arranjar auxiliares e pôr os exércitos para marchar.'
+
+      julgamento.innerHTML =
+        'O tempo está favorávelpara preparar e começar aventuras. Os atributos do movimento (Chen) e da devoção (Kun) sugerem que isto deve ser feito com o auxílio dos outros adaptando-se às suas ideias e necessidades. Pode-se assim evitar a oposição, mesmo que invisível.'
+
+      poemaImagem.innerHTML =
+        'O Trovão sai da Terra, símbolo do Entusiasmo. <br> Assim os antigos reis compunham músicas para louvar os homens de mérito. <br> E as ofereciam em honra a Deus, <br> Na presença de seus espíritos ancestrais.'
+
+      imagem.innerHTML =
+        'A mpusica pode suavizar as emoções e dissipar tensões, assim como o raio purifica o ar. Inspira e move as pessoas pela harmonia de sua composição. Isto deve estar de acordo com ideais elevados, ou metafísicos. A ênfase dada aqui ao ritual religioso implica que somente por uma interação correta entre o espiritual e o material (ou o idealista e o prático) nas suas considerações, as forças poderosas deste tempo poderão ser estabilizadas.'
+
+      break
+
+    //Hexagrama 17 -
+    case 17:
+      titulo.innerHTML = '17 - SUEI - Séquito'
+
+      texto.innerHTML =
+        'Em cima, está Tui (a filha mais jovem, a Alegria) e, embaixo, Chen (o filho mais velho, o Despertar). Sugere um velho que se inclina perante a moça. Os atributos dos trigramas também sugerem alguém cheio de poder criador e aparece feliz e agradável.'
+
+      poemaJulgamento.innerHTML =
+        'O Séquito traz um sublime sucesso. <br> A perseverança é vantajosa, sem desonra.'
+
+      julgamento.innerHTML =
+        'Para se tornar líder poderoso, é preciso adaptar-se às demandas dos outros, por mais tolas ou desnecessárias que sejam. Tratando-se os outros cinicamente, tornando-nos frustrados, e causamos conflitos. É preciso perseverar para reter a harmonia e confiança entre os outros que nos apóiam.'
+
+      poemaImagem.innerHTML =
+        'No meio do Lago, o Trovão, símbolo do Séquito. <br> O homem nobre se retira, ao cair da noite. <br> E repousa em casa.'
+
+      imagem.innerHTML =
+        'O outono (Suei) indica o empalidecer do brilhante e do forte. è um tempo de ganhos fáceis e perdas fáceis, tendendo para a perda. Adapte-se, conservando as forças.'
+
+      break
+
+    //Hexagrama 18 -
+    case 18:
+      titulo.innerHTML = '18 - GUIU - Recuperação do Deteriorado'
+
+      texto.innerHTML =
+        'Sun (o Vento, embaixo) sopra ao pé da Montanha (Ken). Isto implica em destruição; plantas desenraizadas, pomares arruinados. Mas o tempo indicado pela primavera (Sun) seguindo-se ao inverno (Ken) indica a mudança. Indica também trabalho duro. Em negócios, comunidades, relações, etc., estabelecidos, Sun indica arranjos fundamentalmente maus ou incompatíveis'
+
+      poemaJulgamento.innerHTML =
+        'A Recuperação do Deteriorado possui um supremo sucesso. <br> É vantajoso cruzar as grandes águas. <br> Antes de começar, três dias; <br> Depois de começar, três dias.'
+
+      julgamento.innerHTML =
+        'Guiu indica perdas e problemas presentes ou iminentes. A causa está predominantemente nas próprias atitudes e comportamento. A pessoa se confundiu ou ignorou responsabilidades, ou foi desonesta e dúplice. A ruína é inevitável. E precisamente por isto, este hexagrama é considerado fasto. Tempo de ação enérgica e decisiva, para reparar o mal feito. É imperativo considerar e contemplar antes e depois de começar.'
+
+      poemaImagem.innerHTML =
+        'O Vento soprando ao pé da Montanha simboliza a Deterioração. <br> Assim, o homem nobre movimenta o povo <br> E fortifica seu espírito.'
+
+      imagem.innerHTML =
+        'Quando tudo está destruído, ou corre perigo, o sábio trabalha muito visando uma reorganização ordenada. O povo e os amigos precisam ser mobilizados, e então condições sólidas e virtuosas devem ser estabelecidas.'
+
+      break
+
+    //Hexagrama 19 -
+    case 19:
+      titulo.innerHTML = '19 - LIN - Aproximação'
+
+      texto.innerHTML =
+        'Tui, a filha mais jovem, embaixo, ou atrás de Kun, a mãe, indica a imagem da autoridade bondosa, e da correta relação de proximidade entre duas pessoas destas naturezas, uma "acima" da outra.'
+
+      poemaJulgamento.innerHTML =
+        'Aproximação: sublime sucesso, <br> A perseverança é vantajosa. <br> O infortúnio, quando vier o oitavo mês.'
+
+      julgamento.innerHTML =
+        'Um tempo de boa fortuna: as linhas cheias ascendentes indicam crescimento e energia. Mas o aviso quanto ao oitavo mês é que se deve estar preparado, em guarda contra a própria conduta e constantemente atento aos sinais dos tempos.'
+
+      poemaImagem.innerHTML =
+        'Acima do Lago, a Terra: símbolo da Aproximação. <br> Assim o homem nobre é inexaurível na alimentação <br> No sustento e na proteção do povo'
+
+      imagem.innerHTML =
+        'A Terra em cima do LAgo indica a posição elevada de uma pessoa, e a sua atitude superior para com outrem. O curso correto é educar (nutrir) pelo exemplo e pela preocupação com quem está mais abaixo.'
+
+      break
+
+    //Hexagrama 20 -
+    case 20:
+      titulo.innerHTML = '20 - KUAN - A visão'
+
+      texto.innerHTML =
+        'O Vento (Sun) acima da Terra (Kun) sugere o vento soprando a areia, ou os inúteis esforços do ar (ou atividade mental) para ordenar a Terra (as coisas materiais). Não é tempo de empreender nada de novo, mas ordenar os negócios, como os antigos lavradores no tempo de Kuan (fim d setembro, até o meio de outubro), que armazenavam suas colheitas e começavam o longo trabalho de reparar e preparar as ferramentas e tudo o mais para o próximo ano.'
+
+      poemaJulgamento.innerHTML =
+        'A Visão. A ablução foi feita, <br> Mas não ainda o sacrifício. <br> O povo ergue os olhos, cheio de confiança.'
+
+      julgamento.innerHTML =
+        'O momento entre a ablução ritual e o savrifício é o indicado. Os que estão encarregados de projetos, ou os que influenciam aos outros, devem ter grande sensibilidade em relação às suas responsabilidades. <br> O formato do hexagrama, análogo a uma antiga torre chinesa de muralha, também simboliza o Tao - Caminho ao longo do qual ou pelo qual toda vida deve elborar sua existência. Intensifica as ideias de contemplação, pois o Tao serve de símbolo de todos, como os que estão presentes ao sacrifício, respeitosamente olhando par cima. Assim o sujeito é não somente alguém que medita (ou mais mundanamente, alguém de amplas visões ou profundo a respeito das coisas), mas também quem é contemplado.'
+
+      poemaImagem.innerHTML =
+        'O Vento sobre a Terra: símbolo da Visão. <br> Assim os antigos reis visitavam as regiões do mundo, <br> Contemplavam os povos, e os ensinavam.'
+
+      imagem.innerHTML =
+        'Isto refere-se às viagens feitas pelos governantes chineses par "ficr perto ds raízes da grma" (contemplar) e exercitar sua influência (ser contemplado pelo povo). Um homem forte, influente e sábio é capaz, por uma investigação profunda e sem preconceitos, de causar grandes benefícios. Isto, de novo, é um símbolo geral do Tao, o caminho e a porta do "eterno presente" e símbolo de claridade e equilíbrio.'
+
+      break
+
+    //Hexagrama 21 -
+    case 21:
+      titulo.innerHTML = '21 - CHIH HOH - Morder de Través'
+
+      texto.innerHTML =
+        'As características de Li (o relÂmpago, em cima) e Chen (o trovão, embaixo) são combinadas aqui. A forma do hexagrama sugere uma mordedura vigorosa (que morde através dos obstáculos). Como este simbolismo sugere, Chih Hoh indica problemas ou dificuldades, no começo.'
+
+      poemaJulgamento.innerHTML =
+        'Morder de Través: sucesso. <br> É vantajoso administrar justiça.'
+
+      julgamento.innerHTML =
+        'A forma do hegrama sugere uma boca aberta com um obstáculo entre os dentes. Assim o Julgamento aponta um obstáculo à união ou harmoni, saí a necessidade de "morder de través" para sua remoção. Os atributos dos trigramas indicam o equilíbrio que deve ser atingido em "administrar a justiça". Li, o Aderente, é brando, ao passo que Chen, o Estimulante, é duro. As ações, vigorosas, não devem ser apressadas, severas, ou arbitrárias, mas cuidadosamente ponderadas, de modo a adequar-se a todas as circunstâncias. '
+
+      poemaImagem.innerHTML = ''
+
+      imagem.innerHTML = ''
+
+      break
+
+    //Hexagrama 22 -
+    case 22:
+      titulo.innerHTML = '22 - PI - A Graça'
+
+      texto.innerHTML =
+        'Ken, o trigrama superior, significa "Montanha"; Li, embaixo, é o Fogo, o brilho, ou o Sol. Daí a imagem do Sol brilhando e iluminando toda a montanha. A mesma ideia de iluminaçãi no símbolo de fogo na montanha. Os atributos pessoais de Ken e Li - respectivamente, o filho mais jovem e a filha do meio - indicam um casal jovem. Estas imagens implicam beleza e energia, que devem ser reguladas por sensibilidade estética, para durar. A união de um jovem com uma mulher que atingirá meia idade enquanto ele ainda for jovem e irresponsável adverte contra tornar a beleza e a estabilidade como bens permanentes.'
+
+      poemaJulgamento.innerHTML =
+        'A Graça: o sucesso em pequenos empreendimentos.'
+
+      julgamento.innerHTML =
+        'A estrutura do hexagrama enfatiza a forma, mais que o conteúdo. Assim, só as pequenas coisas são favorecidas. Os comentadores chineses apontaram a ideia subsidiária de contemplação ou lucidez (associadas a um objeto bonito, ou agradável), ao passo que sublinharam que a arte é apenas a cobertura do bolo da realidade. Nada tem a ver com as condições básicas e essenciais da vida.'
+
+      poemaImagem.innerHTML =
+        'Fogo queimando ao pé da Montanha: símbolo da Graça. <br> Assim o homem nobre clarifica as questões cotidianas, <br> Mas não julga assim as grandes questões.'
+
+      imagem.innerHTML =
+        'As questões de importência efêmera podem ser vantajosamente ordenadas, mas não se deve enfrentar grandes negócios ou transformações. A estética e a graça ajudarão nos assuntos do dia a dia.'
+
+      break
+
+    //Hexagrama 23 -
+    case 23:
+      titulo.innerHTML = 'Desintegração'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 24 -
+    case 24:
+      titulo.innerHTML = 'Retorno'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 25 -
+    case 25:
+      titulo.innerHTML = 'Inocência'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 26 -
+    case 26:
+      titulo.innerHTML = 'O Poder de Cativar do Grande'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 27 -
+    case 27:
+      titulo.innerHTML = 'Alimentação'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 28 -
+    case 28:
+      titulo.innerHTML = 'Preponderância do Grande'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 29 -
+    case 29:
+      titulo.innerHTML = 'Abismo'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 30 -
+    case 30:
+      titulo.innerHTML = 'Fogo'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 31 -
+    case 31:
+      titulo.innerHTML = 'Influência'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 32 -
+    case 32:
+      titulo.innerHTML = 'Continuidade'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 33 -
+    case 33:
+      titulo.innerHTML = 'Retirada'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 34 -
+    case 34:
+      titulo.innerHTML = 'O Poder do que É Grande'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 35 -
+    case 35:
+      titulo.innerHTML = 'Progresso'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 36 -
+    case 36:
+      titulo.innerHTML = 'Oscurecimento da Luz'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 37 -
+    case 37:
+      titulo.innerHTML = 'Família'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 38 -
+    case 38:
+      titulo.innerHTML = 'Oposição'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 39 -
+    case 39:
+      titulo.innerHTML = 'Obstáculo'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 40 -
+    case 40:
+      titulo.innerHTML = 'Libertação'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 41 -
+    case 41:
+      titulo.innerHTML = 'Diminuição'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 42 -
+    case 42:
+      titulo.innerHTML = 'Aumento'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 43 -
+    case 43:
+      titulo.innerHTML = 'Resolução'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 44 -
+    case 44:
+      titulo.innerHTML = 'Vir ao Encontro'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 45 -
+    case 45:
+      titulo.innerHTML = 'Ajuntamento'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 46 -
+    case 46:
+      titulo.innerHTML = 'Impulso para Cima'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 47 -
+    case 47:
+      titulo.innerHTML = 'Abatimento'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 48 -
+    case 48:
+      titulo.innerHTML = 'O Poço'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 49 -
+    case 49:
+      titulo.innerHTML = 'Revolução'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 50 -
+    case 50:
+      titulo.innerHTML = 'O Caldeirão'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 51 -
+    case 51:
+      titulo.innerHTML = 'O Abalo, A Trovoada'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 52 -
+    case 52:
+      titulo.innerHTML = 'Imobilização'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 53 -
+    case 53:
+      titulo.innerHTML = 'Desenvolvimento Gradual'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 54 -
+    case 54:
+      hexagrama = 54
+      titulo.innerHTML = 'A Noiva'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 55 -
+    case 55:
+      titulo.innerHTML = 'Plenitude'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 56 -
+    case 56:
+      titulo.innerHTML = 'O Estrangeiro'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 57 -
+    case 57:
+      titulo.innerHTML = 'O Suave'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 58 -
+    case 58:
+      titulo.innerHTML = 'Alegria'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 59 -
+    case 59:
+      titulo.innerHTML = 'Dispersão'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 60 -
+    case 60:
+      titulo.innerHTML = 'Limitação'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 61 -
+    case 61:
+      titulo.innerHTML = 'A verdade interior'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 62 -
+    case 62:
+      titulo.innerHTML = 'Preponderância do Pequeno'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 63 -
+    case 63:
+      titulo.innerHTML = 'Após o Cumprimento'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+    //Hexagrama 64 -
+    case 64:
+      titulo.innerHTML = 'Antes do Cumprimento'
+      texto.innerHTML = ''
+      poemaJulgamento.innerHTML = ''
+      julgamento.innerHTML = ''
+      poemaImagem.innerHTML = ''
+      imagem.innerHTML = ''
+      break
+  }
+}

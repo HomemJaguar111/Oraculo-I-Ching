@@ -7,104 +7,118 @@
     <title>Oráculo</title>
     <link rel="stylesheet" href="oraculo.css" />
   </head>
+
+  <!--Texto do Oráculo-->
   <body onload="iching()">
+    <div id="oraculo" class="Oraculo">
+      <h2 id="titulo">Título do Hexagrama</h2>
+
+      <p id="texto">Texto do Hexagrama</p>
+      
+      <h3>O julgamento</h3>
+      <p id="poemaJulgamento">poema do julgamento</p>
+      <p id="julgamento">texto do julgamento</p>
+
+      <h3>A imagem</h3>
+      <p id="poemaImagem">peoma da imagem</p>
+      <p id="imagem">texto da imagem</p>
+      As linhas
+    </div>
     <!--      Trigrama 2   -->
     <header class="show" id="tabuleiro">
-        
-        <div class="trigrama2">
-      <div class="trigrama">
-        <div class="res" id="">
-          <div class="bit" id="tri6_1"></div>
-          <div class="bit" id="tri6_2"></div>
-          <div class="bit" id="tri6_3"></div>
+      <div class="trigrama2">
+        <div class="trigrama">
+          <div class="res" id="">
+            <div class="bit" id="tri6_1"></div>
+            <div class="bit" id="tri6_2"></div>
+            <div class="bit" id="tri6_3"></div>
+          </div>
+          <div class="res" id="">
+            <div class="bit" id="tri5_1"></div>
+            <div class="bit" id="tri5_2"></div>
+            <div class="bit" id="tri5_3"></div>
+          </div>
+          <div class="res" id="">
+            <div class="bit" id="tri4_1"></div>
+            <div class="bit" id="tri4_2"></div>
+            <div class="bit" id="tri4_3"></div>
+          </div>
         </div>
-        <div class="res" id="">
-          <div class="bit" id="tri5_1"></div>
-          <div class="bit" id="tri5_2"></div>
-          <div class="bit" id="tri5_3"></div>
-        </div>
-        <div class="res" id="">
-          <div class="bit" id="tri4_1"></div>
-          <div class="bit" id="tri4_2"></div>
-          <div class="bit" id="tri4_3"></div>
+        <!--   Aqui aparece a imagem do trigrama 2   -->
+        <div class="ideograma">
+          <p id="ideograma2"></p>
+          <img src="" alt="" />
         </div>
       </div>
-       <!--   Aqui aparece a imagem do trigrama 2   -->
-      <div class='ideograma'>
-        <p id="ideograma2"></p>
-        <img src="" alt="">
-        
-      </div>
-
-    </div>
       <!--        TRigrama 1    -->
-    <div class="trigrama1">
-      <div class="trigrama">
-        <div class="res" id="">
-          <div class="bit" id="tri3_1"></div>
-          <div class="bit" id="tri3_2"></div>
-          <div class="bit" id="tri3_3"></div>
+      <div class="trigrama1">
+        <div class="trigrama">
+          <div class="res" id="">
+            <div class="bit" id="tri3_1"></div>
+            <div class="bit" id="tri3_2"></div>
+            <div class="bit" id="tri3_3"></div>
+          </div>
+          <div class="res" id="">
+            <div class="bit" id="tri2_1"></div>
+            <div class="bit" id="tri2_2"></div>
+            <div class="bit" id="tri2_3"></div>
+          </div>
+          <div class="res" id="">
+            <div class="bit" id="tri1_1"></div>
+            <div class="bit" id="tri1_2"></div>
+            <div class="bit" id="tri1_3"></div>
+          </div>
         </div>
-        <div class="res" id="">
-          <div class="bit" id="tri2_1"></div>
-          <div class="bit" id="tri2_2"></div>
-          <div class="bit" id="tri2_3"></div>
-        </div>
-        <div class="res" id="">
-          <div class="bit" id="tri1_1"></div>
-          <div class="bit" id="tri1_2"></div>
-          <div class="bit" id="tri1_3"></div>
+        <!--   Aqui aparece a imagem do trigrama 1   -->
+        <div class="ideograma">
+          <p id="ideograma1"></p>
+          <img src="" alt="" />
         </div>
       </div>
-<!--   Aqui aparece a imagem do trigrama 1   -->
-      <div class='ideograma' >
-        <p id='ideograma1'></p>
-        <img src="" alt="">
+
+      <!--Painel para mostrar as moedas sorteadas-->
+
+      <section class="moedas">
+        <div class="moeda" id="moeda1">
+          <img
+            id="coin1"
+            width="50px"
+            height="50px"
+            src="https://i.ibb.co/h2fYQSh/coin.gif"
+            alt="coin-gif"
+            border="0"
+          />
+        </div>
+
+        <div class="moeda" id="moeda2">
+          <img
+            id="coin2"
+            width="50px"
+            height="50px"
+            src="https://i.ibb.co/h2fYQSh/coin.gif"
+            alt="coin-gif"
+            border="0"
+          />
+        </div>
+
+        <div class="moeda" id="moeda3">
+          <img
+            id="coin3"
+            width="50px"
+            height="50px"
+            src="https://i.ibb.co/h2fYQSh/coin.gif"
+            alt="coin-gif"
+            border="0"
+          />
+        </div>
+      </section>
+
+      <!-- Botão para sortear as moedas-->
+
+      <div class="botao" id="button">
+        <button onclick="jogar()" id="btnJogar">Jogar</button>
       </div>
-
-    </div>
-    
-
-    <!--Painel para mostrar as moedas sorteadas-->
-
-    <section class="moedas">
-      <div class="moeda" id="moeda1">
-        <img id="coin1" width="50px" height="50px" src="https://i.ibb.co/h2fYQSh/coin.gif" alt="coin-gif" border= '0' >
-      </div>
-
-      <div class="moeda" id="moeda2">
-        <img id="coin2" width="50px" height="50px" src="https://i.ibb.co/h2fYQSh/coin.gif" alt="coin-gif" border="0">
-        
-      </div>
-
-      <div class="moeda" id="moeda3">
-        <img id="coin3" width="50px" height="50px" src="https://i.ibb.co/h2fYQSh/coin.gif" alt="coin-gif" border="0">
-      </div>
-
-    </section>
-  
-
-    <!-- Botão para sortear as moedas-->
-    
-    <div class="botao" id='button'>
-      <button onclick="jogar()" id="btnJogar">Jogar</button>
-    </div>
-</header>
-
-
-
-
-
-
-
-
-
-  <main id="oraculo" class='Oraculo'>
-    <h2 id="titulo">Título do Hexagrama</h2>
-    
-    <p id="'texto">Texto do Hexagrama</p>
-
-  </main>
+    </header>
 
     <script src="oraculo.js"></script>
   </body>

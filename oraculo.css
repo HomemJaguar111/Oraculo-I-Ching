@@ -136,6 +136,7 @@ header{
 
 .Oraculo{
   border: #696220 2px solid;
-  width: 90%;
+  max-width: 95%;
+  width: 85%;
   
 }
