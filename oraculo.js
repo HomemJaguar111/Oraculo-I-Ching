@@ -930,103 +930,228 @@ function textOraculo() {
 
     //Hexagrama 23 -
     case 23:
-      titulo.innerHTML = 'Desintegração'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '23 - POH - Desintegração'
+
+      texto.innerHTML =
+        'Poh representa o apodrecimento, a dissolução e o infortúnio. A estação é o outono, quando tudo começa a decair e apodrecer. As cinco linhas yin sugerem as forças fracas e escuras subindo para vencer a linha forte. A forma do hexagrama sugere uma casa da qual restaram apenas paredes e telhado. A estrutura está lá , mas pronta para desabar. '
+
+      poemaJulgamento.innerHTML =
+        'Desintegração. <br> Não é vantajoso fazer seja o que for.'
+      julgamento.innerHTML =
+        'A força criadora (a linha yang) está para ser suplantada pelos elementos desordenados de baixo. É tempo de dificuldade e infortúnio, não necessariamente acarretados por más ações, mas não menos reais. Só se pode dirigir esforços para o bem dos outros - os negócios pessoais estão condenados.'
+
+      poemaImagem.innerHTML =
+        'A montanha sobre a Terra: símbolo de Desintegração. <br> Os superiores só podem garantir sua posição por meio de ricos dons aos inferiores.'
+
+      imagem.innerHTML =
+        'Ken, a Montanha, fica exposta aos golpes desgastantes da natureza sobre Ken, a Terra. Não se deve ceder à dsordem que ameaça, mas suportar os problemas com dignidade, e conservar a virtude (que houver) por um comportamento não egoísta. A situação não pode progredir, mas, com absoluta retidão, pode-se salvá-la  do desastre'
+
       break
+
     //Hexagrama 24 -
     case 24:
-      titulo.innerHTML = 'Retorno'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '24 - FU - Retorno'
+
+      texto.innerHTML =
+        'Fu, associado ao solstício de inverno, o ponto de vitalidade mais baixa, indica um decréscimo de má fortuna. A única linha cheia embaixo representa a força yang, quente e criadora, ascendendo. O trigrama inferior Chen (Madeira) com Kun (Terra) simboliza as raízes de uma planta. Daí termos a ideia de crescimento iminente, novas oportunidades e sucesso em potencial.'
+
+      poemaJulgamento.innerHTML =
+        'Retorno: sucesso. <br> Não há nada de errado em sair e entrar de novo. <br> Os amigos vêm sem mal agum. <br> O curso do Tao é ir e vir. <br> No sétimo dia, o Retorno. <br> É vantajoso ter para onde ir.'
+
+      julgamento.innerHTML =
+        'Depois da retirada das forças criadoras, elas retornam. Nos negócios humanos, os de caráter e mente de mesma natureza unem-se harmoniosamente em novos empreendimentos. Isto espelha o movimento do Tao. A sétima etapa é a do retorno; um novo ciclo, após o velho.'
+
+      poemaImagem.innerHTML =
+        'O Trovão dentro da Terra simbolizao Retorno. <br> Assim, nos tempos antigos, os reis fechavam os passos, no solstício de inverno. <br> Os mercadores e viajantes não circulavam mais. <br> E os governantes não visitavam suas províncias.'
+
+      imagem.innerHTML =
+        ' O princípio do repouso, enquanto a energia da vida é retirada dentro da Terra, significa que tudo deve ser tratado cuidadosamente e não deve ser apressado. Não se pode forçar um botão de flor a abrir; pode-se e deve-se , entretanto, preparar o solo para seu futuro crescimento. Boas perspectivas para negócios estabelecidos, muito embora o tempo seja menos adequado para projetos inteiramente novos.'
+
       break
+
     //Hexagrama 25 -
     case 25:
-      titulo.innerHTML = 'Inocência'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '25 - WU GANG - Inocência'
+
+      texto.innerHTML =
+        'De Chien (em cima) vem o atributo da lei celestial, criadora; embaixo está Chen - o movimento e a força. Assim temos a ideia de energia seguindo as leis do Céu; um estado natural e feliz nos negócios. É um tempo de epreendimentos.'
+
+      poemaJulgamento.innerHTML =
+        'A inocência: sublime sucesso. <br> A perseverança é vantajosa. <br> Se não se é o que se devia ser, então o infortúnio. <br> Não é vantajoso empreender o que quer que seja.'
+
+      julgamento.innerHTML =
+        'A pureza e a bondade da genuína inocência traz o sucesso, quando se persevera, porque nosso caminho está de acordo com o movimento de forças superiores. Se meramente se ostenta uma aparência natural e de boa índole, ou se se tempera o próprio instinto com compromissos "políticos" ou práticos, há pouca vantagem a derivar, e progressivamente perde-se contato com o Caminho'
+
+      poemaImagem.innerHTML =
+        'O Trovão circulando sob o Céu: símbolo da Inocência. <br> Esta é a qualidade de todas as coisas. <br> Assim, outrora, os reis virtuosos e de acordo com o tempo <br> Cuidavam e alimentavam todas as criaturas.'
+
+      imagem.innerHTML =
+        'As energias da vida começam a emergir de novo no princípio da primavera, e então alimentam harmoniosamente suas atividades. A ideia do trovão na primavera indica uma possibilidade extra - súbitas dificuldades, ou mudanças inesperadas nas condições. A força fundamental agora é a criadora, e a do crescimento. Assim, os problemas não devem ser artificialmente removidos, mas deve-se adaptar tão naturalmente e sem artifício quanto possível.'
       break
+
     //Hexagrama 26 -
     case 26:
-      titulo.innerHTML = 'O Poder de Cativar do Grande'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '26 - TA KHU - O Poder de Cativar do Grande'
+
+      texto.innerHTML =
+        'Ta Khu representa o poder ativo do Céu (Chien, embaixo) que é capturadopela imobilidade (Ken). Assim, temos uma situação de grande energia potencial - assim como um rio, restrito pelas paredes de uma barragem, podendo produzir energia. As principais conotações deste hexagrama são as ideias de grandes reservatórios de energia; grande domínio de uma grande energia; e fonte de alimento (que pode ser espiritual ou material).'
+
+      poemaJulgamento.innerHTML =
+        'O Poder de Cativar do Grande: a perseverança é vantajosa. <br> Não comer em casa traz a fortuna. <br> É vantajoso cruzar as grandes águas.'
+
+      julgamento.innerHTML =
+        'As imagens apontam muito trabalho à frente. A qualidade desta época (a energia sob controle) aponta para armazenar as próprias energias e conservar a virtude pelo esforço constante, junto com alguma disciplina útil, assim como a meditação. Quando as energias física e psíquica estão em harmonia, pode-se permanecer em ressonância com o fluxo das energias exteriores; assim, grandes empreendimentos têm chance de sucesso.'
+
+      poemaImagem.innerHTML =
+        'O Céu no meio da Montanha: símbolo do Poder de Cativar do Grande <br> Assim, o homem nobre aprende as palavras de sabedoria e os grandes feitos do passado, <br> Para assimm edificar o seu caráter.'
+
+      imagem.innerHTML =
+        'Dois amplos significados estão indicados aqui: um refere-se ao que está acumulado, seja riqueza material, ou verdades duradouras; o outro indica uma pessoa que absorveu a aquiessência dos que a cercam, e agora deve estar em guarda contra a sua própria complacência, ou que precisa ganhara confiança dos outros para ter sucesso.'
+
       break
+
     //Hexagrama 27 -
     case 27:
-      titulo.innerHTML = 'Alimentação'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = ' 27 - YI - Alimentação'
+
+      texto.innerHTML =
+        'Debaixo do trigrama Ken (Imobilização), temos Chen (Movimento). O fixo em cima e móvel embaixo (junto com a forma do hexagrama, que sugere uma boca aberta) dá a Yi o atributo de uma boca, através da qual a alimentação passa. Como as plantas e as ervas que crescem ao pé da montanha (Ken é a montanha; Chen é a madeira, ou substÂncia vegetal) estão entre as mais nutritivas, a ideia fica reforçada. A imagem do trovão (Chen) rolando pela base da montanha indica que a chuva que alimenta logo virá. As advertÊncias contidas em Yi referem-se a atingir a harmonia e manter a moderação (pois a alimentação imoderada certamente levará, pelo menos, ao desconforto).'
+
+      poemaJulgamento.innerHTML =
+        'Alimentação: a perseverança traz a fortuna. <br> DÊ atenção a prover o alimento, <br> E o alimento <br> É algo que se procura sozinho.'
+
+      julgamento.innerHTML =
+        'A ideia é expandida para incluir a pessoa alimentando outras - seja isto literal ou metafórico; material ou espiritual. Quando nos alimentamos, ou aos outros, é preciso ser cuidadoso para discriminar entre o que é puro e revitalizante e o que é indigno.'
+
+      poemaImagem.innerHTML =
+        'Tovão ao pé da Montanha; símbolo da Alimentação. <br> O homem nobre é cuidadoso com suas palavras, <br> E comedido no comer e no beber.'
+
+      imagem.innerHTML =
+        'A boca é um meio modificador: mastiga a comida, conforma as palavras e está em movimento constante. Indica-se muito trabalho, com a sugestão de que condições ou pessoas difíceis deveriam ser cultivadas e controladas. Mais tarde, serão úteis.'
+
       break
+
     //Hexagrama 28 -
     case 28:
-      titulo.innerHTML = 'Preponderância do Grande'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '28 - TA KUO - Preponderância do Grande'
+
+      texto.innerHTML =
+        'A forma do hexagrama representa uma viga espessa e pesada, que está fraca nas extremidades. Assim, não tem suporte firme. OS dois trigramas Tui (a Água, ou o Lago, em cima) e Sun (a Madeira, a Árvore, embaixo) sugerem árvores debaixo dágua - uma inundação. Isto indica especificamente o excesso, e com a ideia derivada do formato do hexagrama, apresenta a imagem de uma situação perigosa, que não deve continuar.'
+
+      poemaJulgamento.innerHTML =
+        'Preponderância do Grande: a viga está envergada e vai romper-se. <br> É vantajoso avançar rumo a objetivos. Sucesso.'
+
+      julgamento.innerHTML =
+        'A imagem sugere um tempo de graves acontecimentos. Várias situações são sugeridas - os negócios ou os sentimentos podem estar complicados demais. Muito embora os problemas sejam quase inevitáveis, as linhas fortes no centro de Ta Kuo mostram a capacidade do sujeito suportar as dificuldades que se aproximam. A solidez deste hexagrama insiste em que a maneira de resolver os problemas (enquanto forem solúveis) é por meio de uma suave aplicação do entendimento.'
+
+      poemaImagem.innerHTML =
+        'O lago elevando-se acima das Árvores: símbolo da Preponderância do Grande. <br> Portanto, o homem superior fica só, inabalável. <br> Se precisar renunciar ao mundo, não terá ressentimento.'
+
+      imagem.innerHTML =
+        'A atitude do sábio. Muito embora só, é preciso ser firme como a Árvore (Sun, embaixo), sem perder uma atitude aberta e feliz para com a vida (Tui, o Feliz, em cima). A imagem da inundação reforça um aspecto da situação - as águas da inundação, mais cedo ou mais tarde, retiram-se: os problemas são temporários. <br> Lembre-se de que, por mais agradáveis ou lucrativas que as coisas possam estar agora, não vão durar assim pra sempre.'
+
       break
+
     //Hexagrama 29 -
     case 29:
-      titulo.innerHTML = 'Abismo'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '29 - Kan - Abismo'
+
+      texto.innerHTML =
+        'Kan, dois trigramas primários de mesmo nome, significa perigo, a crise e o envolvimento num conflito. Literalmente, o "duplo perigo". Pode indicar uma atitude perante a vida, assim como a mostrada pela pessoa que constantemente se defronta ou cria crises para que sua vida tenha significado. Mais comumente, indica uma situação perigosa à qual urge adaptar-se. O perigo significa aquilo através do qual podemos nos ferir, mas também pode significar progresso e aperfeiçoamento interior, pela superação das provações.'
+
+      poemaJulgamento.innerHTML =
+        'O Abismo repetido: a sinceridade significa harmonia no coração, <br> E aqui virá o sucesso em tudo o que fizer.'
+
+      julgamento.innerHTML =
+        'Como a água, escoando avante sempre que possível, a sinceridade permite-nos entender as profundezas de uma situação, e tomar uma ação eficaz. O perigo dá força ao espírito, e reforça a consciência de que a paz interior é o ingrediente mais importante do sucesso. Com a calma interior, pode-se mover rápido à frente, e evitar o desastre.'
+
+      poemaImagem.innerHTML =
+        'A Água brota do Abismo, sem cessar: símbolo do Abismo repetido. <br> Portanto o homem nobre mantém sempre a sua virtude, <br> E persevera em sua prática de instruir'
+
+      imagem.innerHTML =
+        'A Água, num fluir incessante, simboliza a aproximação sábia à virtude. É preciso garantir que a virtude permeie nossa vida, e que seja de calibre a ponto de enfrentar as mais perturbadoras e inusitadas condições. É preciso dedicar-se constantemente ao auto aperfeiçoamento, e evitar o egoísmo influenciando os outros com a própria virtude'
+
       break
+
     //Hexagrama 30 -
     case 30:
-      titulo.innerHTML = 'Fogo'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '30 - LI - Fogo'
+
+      texto.innerHTML =
+        'O trigrama Li (o que se apega, o brilho, o Fogo) repetido, compõe este hexagrama. A duplicação destas qualidades só pode significar uma pessoa fogosa, de pavio curto, ou uma situação explosiva e instável. Pode também referir-se a apego. O apegar-se (ou atear-se) é tributo do Fogo. Apega-se àquilo que o alimenta, enquanto irradia seu brilho em todas as direções. Em termos particulares, Li poderia referir-se a uma pessoa energética e querelenta (um homem de negócios que se fez sozinho, talvez), ou um amante autoritário, cujo afeto exigente pode ser um disfarce (consciente ou não) de sua dependência de alguém mais. A moral é que a energia da motivação, como o Fogo, deve ser controlada, para ser construtiva, e evitar que só destrua.'
+
+      poemaJulgamento.innerHTML =
+        'A perseveranã é vantajosa: sucesso. <br> Cuidar da vaca traz a fortuna.'
+
+      julgamento.innerHTML =
+        'A anergia radiante, simbolizada pelo fogo, está sendo constantemente consumida. Portanto, deve ter alguma fonte interior que perdure, ou senão morrerá. A perseverança é indicada pela imagem da dócil vaca. É importante, para uma pessoa fogosa, reconhecer alguma dependência (assim como a vaca depende do fazendeiro) e é também importante para ela tornar-se mais tratável em seu comportamento, para desenvolver lucidez e compreensão. É um antídoto vital para o comportamento excessivo e suas atitudes.'
+
+      poemaImagem.innerHTML =
+        'A claridade repetida, símbolo do Fogo. <br> Assim o grande homem refina o brilho <br> PAra iluminar mesmo os lugares mais escuros do mundo.'
+
+      imagem.innerHTML =
+        'Os atributos solares de Li, dobrados, enfatizam o ciclo e a regularidade do tempo. Assim, é preciso regular e deliberadamente refinar a qualidade lúcida e energética que é indicada, para que sua influência possa se estender sem limite.'
+
       break
+
     //Hexagrama 31 -
     case 31:
-      titulo.innerHTML = 'Influência'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '31 - HIEN - Influência'
+
+      texto.innerHTML =
+        'Embaixo, Ken, o filho mais jovem, ou um rapaz (a força), cedeu ao trigrama superior, Tui, a filha mais jovem, ou a moça (o Feliz). De uma maneira fundamental para relacionamentos estáveis, o homem (o forte) cede à mulher, e a mulher, analogamente, cede ao homem. Este é o contrato social primário, com cada companheiro subjugando suas necessidades às do outro. A imagem é a força calma e persistente influenciando uma parte mais fraca, que responde com alegria. Implicam-se afeição e sensibilidade aos outros, ou a fatores externos - mas não a sensibilidade da introversão doentia.'
+
+      poemaJulgamento.innerHTML =
+        'Influência: sucesso. <br> A perseverança é vantajosa. <br> Casas com uma moça traz a fortuna.'
+
+      julgamento.innerHTML =
+        'Indica-se um relacionamento harmonioso e bem sucedido. Como é uma união adequada e mutuamente afetuosa, certamente seguir-se-á o sucesso. Isto vale para qualquer relacionamento - pessoal ou formal.'
+
+      poemaImagem.innerHTML =
+        'O Lago sobre a Montanha: símbolo da Influência. <br> Assim o sábio encoraja a aproximação <br> Por sua capacidade de acolher.'
+
+      imagem.innerHTML =
+        'A metáfora de um lago de montanha sugere um caráter calmo e receptivo, ao invés de um que, sabendo-se forte ou superior, expressa estas qualidades. A ideia de princípios não egoístas é acrescida à noção do forte voluntariamente subordinando-se às necessidades dos pobres.'
+
       break
+
     //Hexagrama 32 -
     case 32:
-      titulo.innerHTML = 'Continuidade'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '32 - HENG - Continuidade'
+
+      texto.innerHTML =
+        'Este hexagrama é o inverso do precedente: Aqui Chen (o filho mais velho, o Trovão) está acima de Sun (a filha mais velha, o Suave, o Vento). Assim o ativo lidera o passivo e o Trovão une-se ao Vento (seu companheiro natural). isto sugere um relacionamento durável, consistente.'
+
+      poemaJulgamento.innerHTML =
+        'Continuidade: sucesso, sem desonra. <br> A perseverança é vantajosa. <br> É vantajoso ter um objetivo.'
+
+      julgamento.innerHTML =
+        'A continuidade é conseguida por meio da persistÊncia, no seu sentido mais profundo. É uma qualidade de perseverar a todo instante, no mesmo sentido divinamente criador de Vishnu, por seu constante avanço, fechando os abismos entre cada instante, à medida que são abertos por Shiva. Isto sublinha as qualidades pessoais de força e sabedoria, que acompanham a busca vital do significado subjacente a tudo.'
+
+      poemaImagem.innerHTML =
+        'Trovão e Vento: símbolo da Continuidade. <br> Portanto, o homem nobre permanece sempre firme, <br> Sem se desviar de seu caminho.'
+
+      imagem.innerHTML =
+        'Muito embora as duas forças celestiais continuem se movendo e transformando-se com pouca continuidade aparente, de fato estão sujeitas às leis da vida, como tudo o mais. Deve-se ter consciÊncia  disto e ser absolutamente constante, muito embora se possa mudar de tática ou comportamento para se acomodar às mudanças circunstanciais. Em geral, a harmonia da real continuidade é sublinhada e distingue-se da aparente.'
+
       break
+
     //Hexagrama 33 -
     case 33:
       titulo.innerHTML = 'Retirada'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 34 -
     case 34:
       titulo.innerHTML = 'O Poder do que É Grande'
