@@ -1138,173 +1138,335 @@ function textOraculo() {
 
     //Hexagrama 33 -
     case 33:
-      titulo.innerHTML = 'Retirada'
+      titulo.innerHTML = '33 - TUN - Retirada'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Chien (o pai) em cima de Ken (Montanha, quietude) sugere um eremita isolado na Montanha. Sua ênfase é no retiro em relação a condições potencialmente perigosas, inspirado por uma profunda compreensão dos resultados, se se perseverar. O retiro, o isolamento, ou a resignação, aceitando-se as condições tais como são.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Retirada:sucesso. <br> Nas pequenas coisas, a perseverança é vantajosa.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'As duas linhas fracas são as forças hostis, em ascensão. A pessoa prudente retrai-se - não fugindo, mas cedendo. Persevere, de modo que a retirada seja a melhor possível.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Sob o Céu, a Montanha: símbolo da Retirada <br> O homem nobre mantém o vulgar a distância, <br> Sem cólera, mas com dignidade'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'A imagem sugerida é a da Montanha, subindo para o Céu. O Céu parece recuar, para cima, e da mesma maneira, o sábio mantém uma distância digna entre ele e as influÊncias perturbardoras. A advertência contra sentimentos negativos é particularmente importante.'
 
       break
 
     //Hexagrama 34 -
     case 34:
-      titulo.innerHTML = 'O Poder do que É Grande'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '34 - TA CHUANG - O Poder do que É Grande'
+
+      texto.innerHTML =
+        'O trigrama Chen, em cima de Chien (Céu) mostra o Trovão no Céu. Os atributos de um jovem (força; movimento) acrescentam-se à imagem naturalista de força vital e jovem. De certa maneira, Ta Chuang é o oposto de Tun, onde as forças escuras e hostis estavam em ascensão. Aqui, as forças intensas e criadoras movem-se para cima. Quando as condições forem favoráveis, os resultados serão excelentes, mas há sempre grande perigo de excesso e abuso de poder.'
+
+      poemaJulgamento.innerHTML =
+        'O Poder do que É Grande: a perseverança é vantajosa.'
+
+      julgamento.innerHTML =
+        'A imagem do Poder do que é Grande é auto-explicativa, mas os autores acrescentaram uma importante qualificação. É que o Poder do Grande deve ser temperado quer pela perseverança em restringir e restringir-se de acordo com o que for justo, ou perseverar e aguardar um momento mais apropriado. O que quer que se aplique, o casamento da força e da sensibilidade é vital para produzir bons e frutíferos resultados, ao invés de desperdício.'
+
+      poemaImagem.innerHTML =
+        'Trovão lá no céu: símbolo do Poder do Grande, <br> Assim, o homem nobre não vai por caminhos <br> Que não se conformem à ordem.'
+
+      imagem.innerHTML =
+        'O Trovão está se deslocando rumo ao Céu. Ambos têm a tendência de subir, d modo que seus movimentos estão em harmonia. Estra tendência feliz deve ser conservada não se fazendo nada incompátivel com o caminho correto - quer o caminho seja a lei, a eficiência, ou a simples voz interior.'
+
       break
     //Hexagrama 35 -
     case 35:
-      titulo.innerHTML = 'Progresso'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '35 - Tchin - Progresso'
+
+      texto.innerHTML =
+        'O Sol (Li) está sobre a Terra (Kun) como no começo do dia, simbolizando a influência crescente, o progresso e a prosperidade fáceis. Em termos humanos, há duas partes representadas: uma ativa, apaixonada e olhando para o futuro; a outra, passiva, receptiva e lógica. As advertências aqui se referem à possibilidade de separação (o Sol "deixa" a Terra), contra a pressa indevida (o progresso do Sol é o símbolo básico do desenvolvimento regular, apropriado) e de relacionamentos incorretos.'
+
+      poemaJulgamento.innerHTML =
+        'O Progresso. O poderoso príncipe <br> É honrado com presentes de muitos cavalos. <br> Num só dia ele é recebido três vezes em audiência.'
+
+      julgamento.innerHTML =
+        'Isto mostra um relacionamento mundano correspondendo à correção intrínseca ao simbolismo natural. Respeitado por seus iguais, o líder cumpre seus deveres e é honesto para com seu rei, que o honra. Assim, a ideia de um servo independente, mas obediente, e um senhor justo e compreensivo é apresentado como o alicerce do progresso em assuntos importantes.'
+
+      poemaImagem.innerHTML =
+        'O Sol erguendo-se acima da Terra: símbolo do Progresso. <br> Assim o homem nobre faz brilhar sua virtude'
+
+      imagem.innerHTML =
+        'O Sol da manhã aumenta sua luz à medida que se ergue, deixando a escuridão das profundezas. Assim o sábio aperfeiçoa sua posição e caráter descartando os indignos e sem princípios. Desta maneira, ganha em auto-confiança e virtude.'
+
       break
+
     //Hexagrama 36 -
     case 36:
-      titulo.innerHTML = 'Oscurecimento da Luz'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '36 - MING YI - Oscurecimento da Luz'
+
+      texto.innerHTML =
+        'Aqui, a posição dos trigramas é o oposto da Tchin. Aqui, Kun, a Terra, está acima de Li, o Sol, ou a Luz. Daí a imagemda noite se aproximando, ou a atenuação da luz. As implicações incluem a acumulação esmagadora de forças hostis ou negativas (da fraqueza), e a onipotência de uma autoridade inimiga de suas crenças. Nos relacionamentos, pode-se achar as coisas tristes e grotescas, ao passo que todos parecem alegremente inconscientes destas condições (para você) odiosas.'
+
+      poemaJulgamento.innerHTML =
+        'Obscurecimento da Luz. <br> É vantajoso ser perseverante na adversidade.'
+
+      julgamento.innerHTML =
+        'A atividade fere quem a inicia, e pouco sucesso, ou nenhum. É preciso "esconder a lâmpada debaixo do alqueire", se sua lâmpada estiver produzindo qualquer brilho útil. Caso contrário, é preciso trabalhar constantemente para aperfeiçoar sua virtude. Assim aprendem-se lições inestimáveis nestes tempos. e fica-se preparado quando vier um tempo favorável para a ação.'
+
+      poemaImagem.innerHTML =
+        'O Sol mergulhando dentro da Terra simboliza o Obscurecimento da Luz. <br> Desta maneira, o homem nobre vive em meio ao povo; <br> Vela seu brilho e, no entanto, sua virtude ainda brilha.'
+
+      imagem.innerHTML =
+        'O sábio agora deve ser cauteloso, reservado e cheio de ponderação. Quando as forças ambientes são hostis, como indicado por Ming Yi, não se deve provocar uma inimizade abertamente, por um comportamento imodesto.'
+
       break
+
     //Hexagrama 37 -
     case 37:
-      titulo.innerHTML = 'Família'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '37 - KIA JEN - Família'
+
+      texto.innerHTML =
+        'As linhas indicam a estrutura familiar. Os membros, indicados por linhas yin ou yang correlacionam-se com o parceiro certo no hexagrama, assim a ênfase é dirigida para os relacionamentos corretos, cooperação, responsabilidades e atitudes harmoniosas e consciênciosas.'
+
+      poemaJulgamento.innerHTML =
+        'A Família. A perseverança da mulher é vantajosa.'
+
+      julgamento.innerHTML =
+        'Se as atitudes corretas prevalecerem, a estrutura familiar permanecerá forte e contribuirá para uma sociedade harmoniosa. A união básica é a do homem e da mulher. É a devoção dela e sua lealdade perseverante que mantém esta união. A mulher, portanto, é o alicerce do casamento na sociedade.'
+
+      poemaImagem.innerHTML =
+        'O Vento sai do Fogo, simbolizando a Família. <br> Assim, a fala do homem nobre possui substância, <br> E seu estilo de vida, permanência.'
+
+      imagem.innerHTML =
+        'O homem é a força exterior da família. Como uma chama que precisa de combustível, suas palavras precisam alicerçar-se em alguma substância: como o vento soprando uma vela, sua conduta deve sustentar palavras, para lhes dar eficácia.'
+
       break
+
     //Hexagrama 38 -
     case 38:
-      titulo.innerHTML = 'Oposição'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '38 - KUEI - Oposição'
+
+      texto.innerHTML =
+        'Li (a Chama) e Tui (o Lago, embaixo) não têm interação: a tendência da Chama é para cima; a da Água, para baixo. Assim, a condição corrente é de desunião. Pode significar um conflito atual ou latente.'
+
+      poemaJulgamento.innerHTML = 'Oposição. Nas pequenas coisas, a fortuna.'
+
+      julgamento.innerHTML =
+        'A situação pode parecer pesada e estagnada, sem união criativa, mas uma vista mais ampla mostra que contém elementos opostos que podem, juntos, ser criativos. Isto pode ser externo, ou subjetivo. Mas há obstáculos de ordem prática e, assim, só os feitos menores são possíveis.'
+
+      poemaImagem.innerHTML =
+        'O Fogo acima do Lago simboliza a Oposição. <br> Assim, em meio à multidão, <br> O homem nobre conserva sua individualidade.'
+
+      imagem.innerHTML =
+        'Fogo e Água sempre retém sua própria natureza, por mais próxima que seja sua associação. Analogamente, uma pessoa sábia não deve ser afetadapela moda prevalente, mas deve primeiro confiar em suas próprias normas. Isto também indicacomo se pode mudar para melhor. Quando se está isoladoo, ou em conflito com coisas ou pessoas, deve-se ficar mais generoso para com os outros, ao passo que se retém a própria individualidade.'
+
       break
+
     //Hexagrama 39 -
     case 39:
-      titulo.innerHTML = 'Obstáculo'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '39 - KIEN - Obstáculo'
+
+      texto.innerHTML =
+        'O hexagrama significa dificuldade, perigo ou obstrução. Kan (a Água) está em cima de Ken (a Montanha), representando um lago temporário que pode transbordar e inundar as aldeias e plantações lá embaixo. A imagem do abismo à frente (Kan) com a Montanha atrás, indica o perigo ou a dificuldade do movimento.'
+
+      poemaJulgamento.innerHTML =
+        'Obstáculo. O sudoeste é vantajoso.<br> O nordeste não é vantajoso. <br> É vantajoso ir ver o grande homem. <br> A perseverança traz fortuna.'
+
+      julgamento.innerHTML =
+        'O sudoeste é associado ao trigrama Kun (a Planície) onde a força perigosa da Água seria aquietada em benefício da comunidade. A liderança de uma autoridade mais alta - quer seja pessoa viva, conjunto de regras ou um ideal - pode ser necessária para escapar. Concentre-se em conservar uma atitude harmoniosa e não se apresse em adotar "soluções" convencionais, em última análise, inúteis.'
+
+      poemaImagem.innerHTML =
+        'Água sobre a Montanha simboliza o Obstáculo. <br> O homem nobre dirige sua atenção para dentro <br> E paerfeiçoa se caráter.'
+
+      imagem.innerHTML =
+        'O desagrado que experimentamos quando em dificuldades ´, o mais das vezes, causado por nossas próprias reações. Não se deve tentar esclarecer as coisas neurótica e ineficazmente, mas deve-se desenvolver sensibilidade para a própria condição e uma atitude que crie harmonia.'
+
       break
+
     //Hexagrama 40 -
     case 40:
-      titulo.innerHTML = 'Libertação'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '40 - HIAI - Libertação'
+
+      texto.innerHTML =
+        'Este hexagrama representa uma libertação das preocupações de Kien. O tempo indicado é a primavera, ou amanhã: ambos significam vida nova e oportunidades de trabalho intenso. Os sinais de salvação iminente ou sucesso trazaem o perigo de relaxar prematuramente e também de assumir atividade interrompida pelos problemas passados. Olhe para o futuro.'
+
+      poemaJulgamento.innerHTML =
+        'Libertação. O sudoeste é vantajoso. <br> Se nada resta por fazer, <br> O retorno é fonte de fortuna. <br> Se algo resta por fazer, <br> A pressa é fonte de fortuna.'
+
+      julgamento.innerHTML =
+        'As condições tendem a retornar ao normal (o sudoeste simboliza uma planície, onde há atividade humana convencional) e as coisas devem ser dispostas adequadamente o mais cedo possível. Tenha cuidado com excesso de entusiasmo ou outros excessos. Deve-se ficar em guarda, de modo que se está livre para progredir junto com os novos tempos.'
+
+      poemaImagem.innerHTML =
+        'O Trovão, seguido da chuva: símbolo da Libertação. <br> Assim o homem nobre perdoa os erros <br> E absolve os pecados.'
+
+      imagem.innerHTML =
+        'A libertação da tensão é o que segue às tempestades: analogamente, o perdão dos erros e malfeitos aclara a situação. Este é o hexagrama simbolizando o "koan" zen-budista, ou a experiência kumita nas artes marciais - ambas englobam a angústia mental e a confusão, seguidas por uma sutil e intensa claridade. É a lucidez que se deve ter antes de qualquer grande empresa.'
+
       break
+
     //Hexagrama 41 -
     case 41:
-      titulo.innerHTML = 'Diminuição'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '41 - SUEN - Diminuição'
+
+      texto.innerHTML =
+        'A diminuição, e mesmo a perda, é simbolizada por Ken, a Montanha, em cima de Tui, o Lago - as faldas da Montanha desabando dentro do Lago. Mas, enquanto uma parte é reduzida, a outra é aumentada. A perda de um é o ganho de outro. O tema de Suen concerne a adaptação às circunstâncias.'
+
+      poemaJulgamento.innerHTML =
+        'Diminuição: aliada à sinceridade produz uma grande fortuna, sem desonra. <br> Pode-se perseverar. <br> É vantajoso empreender alguma coisa. <br> Como fazer? <br> Pela oferenda de duas tijelas de arroz.'
+
+      julgamento.innerHTML =
+        'Entender a inevitabilidade da época é de importância vital e fundamental. Austeridade, simplicidade, humildade são corretas e apropriadas. Com esta compreensão simples, pode-se atingir um grande objetivo. O sacrifício de duas tijelas de arroz - como a parábola do óbolo da viúva (do Evangelho segundo São Lucas) - indica que, mesmo a menor das ações, se sincera, pode ser boa.'
+
+      poemaImagem.innerHTML =
+        'O Lago minando o sopé da Montanha: símbolo da Diminuição. <br> Assim o homem nobre refreia sua ira <br> E controla seus desejos.'
+
+      imagem.innerHTML =
+        'A Montanha, simbolizando a obstinação, a dureza, mesmo a cólera, desmorona dentro do Lago, que é a alegria e a felicidade. A dissolução da adureza traz a alegria. A alegria histérica e frívola é evitada pela evaporação do LAgo, dando uma umidade benéfica às enconstas da Montanha. Não há benefício na tristeza. pode-se perder amigos, os dividendos das ações podem diminuir, mas reajustando os próprios valores, podemos melhorar nosso caráter.'
+
       break
+
     //Hexagrama 42 -
     case 42:
-      titulo.innerHTML = 'Aumento'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '42 - YI - Aumento'
+
+      texto.innerHTML = 'Sugere uma floresta fervilhante, cheiia de flores e plantas produzidas por Suen, em cima e Chen, a força que desperta, embaixo. Também a linha inferior do trigrama superior é considerada como tendo cedido a uma linha yin, ou fraca. Isto sugere consideração e serviço prestado pelo forte. Tal renúncia é considerada supremamnente auspiciosa'
+
+      poemaJulgamento.innerHTML = 'Aumento: é vantajoso empreender alguma coisa. <br> É vantajoso atravessar as grandes águas.'
+
+      julgamento.innerHTML = 'O tempo do aumento não durará, portanto agora é hora de agir, sem hesitação. ISto se aplica mesmo a grandes e perigosos empreendimentos.'
+
+      poemaImagem.innerHTML = 'Vento e Trovão: símbolo do Aumento. <br> Assim o homem nobre observa o bem, e o imita; <br> Observa o mal, e se desfaz dele.'
+
+      imagem.innerHTML = 'Aqui, um aspecto dual, mas enquanto Suen fala de diminuição, aqui é de ganho e progresso. Não se deve ter a boa fortuna como garantida. A imagem pode aplicar-se a amizades, onde um parceiro acredita-se generoso, mas de fato está alimentando-se egoisticamente no apoio altruísta do outro. Indica-se a necessidade de consciênciacrítica e auto-análise.'
+
       break
+
     //Hexagrama 43 -
     case 43:
-      titulo.innerHTML = 'Resolução'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
+      titulo.innerHTML = '43 - KUÊ - Resolução'
+
+      texto.innerHTML = 'Este hexagrama inidca uma decisão, ou rompimento após um prolongado período de tensão, simbolizado por uma trovoada iminente (Tui, o Lago, em cima de Kien, o Céu), ou um tempo em que o inferior começa a perder terreno. Seu tema é a força que igualmente pode criar um grande bem ou causar desagrado e desarmonia em todo lugar. O conselho de Kuê é sobre como a energia deveria ser canalizada.'
+
+      poemaJulgamento.innerHTML = 'Resolução. A questão deve ser apresentada no tribunal mais alto, <br> Resoluta e honestamente. <br> Perigo <br> Deve-se informar o próprio povo, <br> Mas não é vantajoso recorrer à força, agora. <br> É vantajoso empreender alguma coisa.'
+
+      julgamento.innerHTML = 'As menores faltas devem ser corrigidas. Isto requer firmeza e determinação.'
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 44 -
     case 44:
       titulo.innerHTML = 'Vir ao Encontro'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 45 -
     case 45:
       titulo.innerHTML = 'Ajuntamento'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 46 -
     case 46:
       titulo.innerHTML = 'Impulso para Cima'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 47 -
     case 47:
       titulo.innerHTML = 'Abatimento'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 48 -
     case 48:
       titulo.innerHTML = 'O Poço'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 49 -
     case 49:
       titulo.innerHTML = 'Revolução'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 50 -
     case 50:
       titulo.innerHTML = 'O Caldeirão'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 51 -
     case 51:
       titulo.innerHTML = 'O Abalo, A Trovoada'
