@@ -1327,15 +1327,20 @@ function textOraculo() {
     case 42:
       titulo.innerHTML = '42 - YI - Aumento'
 
-      texto.innerHTML = 'Sugere uma floresta fervilhante, cheiia de flores e plantas produzidas por Suen, em cima e Chen, a força que desperta, embaixo. Também a linha inferior do trigrama superior é considerada como tendo cedido a uma linha yin, ou fraca. Isto sugere consideração e serviço prestado pelo forte. Tal renúncia é considerada supremamnente auspiciosa'
+      texto.innerHTML =
+        'Sugere uma floresta fervilhante, cheiia de flores e plantas produzidas por Suen, em cima e Chen, a força que desperta, embaixo. Também a linha inferior do trigrama superior é considerada como tendo cedido a uma linha yin, ou fraca. Isto sugere consideração e serviço prestado pelo forte. Tal renúncia é considerada supremamnente auspiciosa'
 
-      poemaJulgamento.innerHTML = 'Aumento: é vantajoso empreender alguma coisa. <br> É vantajoso atravessar as grandes águas.'
+      poemaJulgamento.innerHTML =
+        'Aumento: é vantajoso empreender alguma coisa. <br> É vantajoso atravessar as grandes águas.'
 
-      julgamento.innerHTML = 'O tempo do aumento não durará, portanto agora é hora de agir, sem hesitação. ISto se aplica mesmo a grandes e perigosos empreendimentos.'
+      julgamento.innerHTML =
+        'O tempo do aumento não durará, portanto agora é hora de agir, sem hesitação. ISto se aplica mesmo a grandes e perigosos empreendimentos.'
 
-      poemaImagem.innerHTML = 'Vento e Trovão: símbolo do Aumento. <br> Assim o homem nobre observa o bem, e o imita; <br> Observa o mal, e se desfaz dele.'
+      poemaImagem.innerHTML =
+        'Vento e Trovão: símbolo do Aumento. <br> Assim o homem nobre observa o bem, e o imita; <br> Observa o mal, e se desfaz dele.'
 
-      imagem.innerHTML = 'Aqui, um aspecto dual, mas enquanto Suen fala de diminuição, aqui é de ganho e progresso. Não se deve ter a boa fortuna como garantida. A imagem pode aplicar-se a amizades, onde um parceiro acredita-se generoso, mas de fato está alimentando-se egoisticamente no apoio altruísta do outro. Indica-se a necessidade de consciênciacrítica e auto-análise.'
+      imagem.innerHTML =
+        'Aqui, um aspecto dual, mas enquanto Suen fala de diminuição, aqui é de ganho e progresso. Não se deve ter a boa fortuna como garantida. A imagem pode aplicar-se a amizades, onde um parceiro acredita-se generoso, mas de fato está alimentando-se egoisticamente no apoio altruísta do outro. Indica-se a necessidade de consciênciacrítica e auto-análise.'
 
       break
 
@@ -1343,256 +1348,414 @@ function textOraculo() {
     case 43:
       titulo.innerHTML = '43 - KUÊ - Resolução'
 
-      texto.innerHTML = 'Este hexagrama inidca uma decisão, ou rompimento após um prolongado período de tensão, simbolizado por uma trovoada iminente (Tui, o Lago, em cima de Kien, o Céu), ou um tempo em que o inferior começa a perder terreno. Seu tema é a força que igualmente pode criar um grande bem ou causar desagrado e desarmonia em todo lugar. O conselho de Kuê é sobre como a energia deveria ser canalizada.'
+      texto.innerHTML =
+        'Este hexagrama inidca uma decisão, ou rompimento após um prolongado período de tensão, simbolizado por uma trovoada iminente (Tui, o Lago, em cima de Kien, o Céu), ou um tempo em que o inferior começa a perder terreno. Seu tema é a força que igualmente pode criar um grande bem ou causar desagrado e desarmonia em todo lugar. O conselho de Kuê é sobre como a energia deveria ser canalizada.'
 
-      poemaJulgamento.innerHTML = 'Resolução. A questão deve ser apresentada no tribunal mais alto, <br> Resoluta e honestamente. <br> Perigo <br> Deve-se informar o próprio povo, <br> Mas não é vantajoso recorrer à força, agora. <br> É vantajoso empreender alguma coisa.'
+      poemaJulgamento.innerHTML =
+        'Resolução. A questão deve ser apresentada no tribunal mais alto, <br> Resoluta e honestamente. <br> Perigo <br> Deve-se informar o próprio povo, <br> Mas não é vantajoso recorrer à força, agora. <br> É vantajoso empreender alguma coisa.'
 
-      julgamento.innerHTML = 'As menores faltas devem ser corrigidas. Isto requer firmeza e determinação.'
+      julgamento.innerHTML =
+        'As menores faltas devem ser corrigidas. Isto requer firmeza e determinação.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'O lago transbordou, rumo ao Céu: símbolo da Resolução. <br> Assim o homem nobre distribui a riqueza abaixo de si e receia desecansar sobre sua virtude.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'Mostra-se uma situação em que as condições, ou uma pessoa, são fortes e influentes. As coisas vão mudar. Bons ou maus resultados dependem da atitude da figura central, e dos sentimentos alheios em relação a ela. Todo ganho é seguido por perda, assim i sábio compartilha de seu bem-estar, e não se permite ficar isolado ignorando a vida à sua volta.'
 
       break
 
     //Hexagrama 44 -
     case 44:
-      titulo.innerHTML = 'Vir ao Encontro'
+      titulo.innerHTML = '44 - KIU - Vir ao Encontro'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'O princípio fraco se intromete, indicando a aparição do perigo, se bem que por um elemento aparentemente inofensivo. Em cima, Kien, a força, encontra Sun, o feminino e penetrante. Isto sugere um princípio masculino - um líder, uma pessoa de autoridade, ou uma situação estável e forte - influenciado por um elemento fraco, mas eficaz. Kiu é favorável para projetos a curto prazo. '
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Vir ao Encontro. <br> A moça é forte. <br> Não se deve esposá-la.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'O elemento fraco atrai a atenção. Destarte, pessoas inferiores elevam-se a posições de poder. Se não houver dissimulação, nem segundas intenções, a situação pode ser feliz - mas isto requer uma profunda intuição e virtude.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Sob o Céu, sopra o vento: símbolo de Vir ao Encontro. <br> O príncipe assim publica suas ordens, <br> Proclamando-as aos quatro pontos cardeais.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'Aqui, o Vento dissemina a influência criadora. Há organização, e intensa atividade. A advertência implícita é contra a falta de humildade e sensibilidade quantoàs forças mutáveis que o rodeiam.'
 
       break
 
     //Hexagrama 45 -
     case 45:
-      titulo.innerHTML = 'Ajuntamento'
+      titulo.innerHTML = '45 - TSUEI - Ajuntamento'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'A imagem de Tui (o Lago) sobre Kun (a Terra) é a água juntando-se numa só massa (em contraste com Pi, o oitvo hexagrama, qu representa uma condição mais estável). Isto sugere gente se reunindo de comum acordo. A advertência implícita é contra desordem. É tempo de estabelecer condições estáveis, ordenadas e duráveis.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Ajuntamento. Sucesso. <br> O rei vai ao templo. <br> É vantajoso ver o grande homem. <br> A perseverança é vantajosa. <br> Apresentar belas oferendas cria a fortuna. <br> É vantajoso empreender alguma coisa'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'As comunidades atingem a prosperidade agindo de acordo. Aqui enfatiza-se o líder - o rei. As vantagens desta reunião são aumentadas pelas oferendas que cada líder faz. As necessidades do grupo são, ou deveriam ser, subjacentes às nossas próprias atitudes. Entretanto o significado profundo de Tsuei trata com o "centro" - isto é, não necessariamente a pessoa que parece ser o líder, mas com a força-guia e coerente que subjaz a qualquer associação frutuosa.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'O Lago acumula-se sobre a Terra: símbolo do Ajuntamento. <br> Assim o homem nobre tem sempre prontas suas armas <br> Para enfrentar o imprevisto '
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'Nestes tempos, simbolizados por um Lago abraçado pela Terra, há sempre a possibilidade de um transbordamento da água - acarretando um súbito perigo. Isto pode derivar do grupo (mesmo prevalecendo uma aparente harmonia), ou do exterior.'
 
       break
 
     //Hexagrama 46 -
     case 46:
-      titulo.innerHTML = 'Impulso para Cima'
+      titulo.innerHTML = '46 - CHENG - Impulso para Cima'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Simboliza-se aqui o tempo da primavera: embaixo, as plantas (simbolizadas por Suen, a Madeira) empurram para cima, através da Terra (Kun) sugerindo expansão e crescimento. A ênfase é no movimento para cima (da obscuridade para evidência, por exemplo) ao invés da simples expansão. A força de vontade e o autocontrole são necessários para ordenar harmoniosamente este movimento.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'O Impulso para China possui um sublime sucesso. <br> É preciso ir ver o grande homem, não tema. <br> A partida para o sul traz a fortuna.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'É preciso ser prudente e correto em suas atitudes, ou o egoísmo poderá prevalecer e levar ao infortúnio. LEvado pela boa fortuna, voeê deve procurar o conselho de uma autoridade. O sul simboliza a atividade. A aplicação altruísta agora criará uma harmonia duradoura. Um tempo favorável para estabelecer condições duráveis.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'A Madeira crescendo em meio à Terra simboliza o Impulso para Cima. <br> O homem nobre se devota a construir, pouco a pouco, <br> A partir de humildes começos, grandes realizações.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'Um crescimento constante e flexível é o atributo de uma planta que vai crescendo para cima. Uma pessoa sábia, em harmonia com o destino, deve ser sensata e determinada.'
 
       break
 
     //Hexagrama 47 -
     case 47:
-      titulo.innerHTML = 'Abatimento'
+      titulo.innerHTML = '47 - KUEN - Abatimento'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Este é um dos maiores "sinais de perigo" do I Ching, significando extrema dificuldade, pobreza e opressão. O esgotamentos é simbolizado por Kan (a Água) sob Tui (o Lago). O Lago está vazio e sua Água é drenada. As linhas - uma fraca segurando duas fortes, e duas fracas cercando uma forte - sugere restrição, obstáculos e opressão. Todas as seis linhas são desfavoráveis, mas a maior desgraça tem as sementes da maior regeneração, se se pode entender e observar as durezas deste tempo.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Abatimento. Sucesso. Perseverança. <br> A boa fortuna aguarda o grande homem. Sem desonra. <br> Se se tem alguma coisa a dizer, não se é acreditado.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'Apanhado numa armadilha e desiludido, você se encontra numa crise, onde os sonhos fáceis e os princípios corruptos são desmascarados como vazios. Suas atitudes e ações vão determinar os anos a seguir. Não há nada mais vital agora do que ceder à natureza de sua condição e compreender o espírito de tal situação.'
 
-      poemaImagem.innerHTML = ''
+      //poemaImagem.innerHTML = ''
 
-      imagem.innerHTML = ''
+      //imagem.innerHTML = ''
 
       break
 
     //Hexagrama 48 -
     case 48:
-      titulo.innerHTML = 'O Poço'
+      titulo.innerHTML = '48 - TSING - O Poço'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Um poço é simbolizado pela Água (Kan, em cima), em que um balde (Suen, a Madeira) é mergulhado. A ideia de alimentação é acrescida pela imagem de uma planta (Suen) que absorve a umidade para cima. Tsing implica as facetas mais fundamentais de qualquer sociedade - profundidade e consistência. A profundidade sugere que a estabilidade é constituída sobre a sensibilidade às necessidades mais fprofundas do homem. A constância implica fiabilidade - um poço útil deve ser uma fonte constante e confiável de água, assim como a estrutura social deve ser confiável para que haja justiça e oportunidades iguais para todos.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'O Poço. Pode-se mudar a cidade, mas não o poço. <br> Não transborda, nem seca. <br> As pessoas vão e vêm ao poço. <br> Se a corda não consegue atingir a água, <br> Ou se o aso se quebra, então o infotúnio.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'As cidades na China eram realocadas com a mudança das dinastias, mas os poços ficavam onde sempre estiveram. Assim, as necessidades humanas permanecem constantes, a despeito das circunstâncias exteriores. A natureza humana não aumenta nem diminui. A imagem do poço pode simbolizar uma fundação, ou alguma fonte de benefício. Esteja atento contra a profundidade insuficiente (cmopreensão ou planejamento superficiais) e contra o descuido, excesso ou negligência.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Água sobre Madeira: símbolo do Poço. <br> O homem nobre inspira as boas obras ao povo, e o exorta à ajuda mútua.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'O sábio tira a água (ou aplica seus esforços) pelo bem de todos. A flexibilidade e a apreciação não-egoísta da natureza humana são necessárias para beneficiar os outros. A imagem das boas obras, simbolizadas por um poço, lembra-nos que um poço lamacento é inútil e necessita de trabalho para revestir suas paredes. OS relacionamentos e negócios pobres precisam de reparações.'
 
       break
 
     //Hexagrama 49 -
     case 49:
-      titulo.innerHTML = 'Revolução'
+      titulo.innerHTML = '49 - KO - Revolução'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Mudanças oriundas do conflito, e conflitos oriundos da mudança, são o tema central deste hexagrama. <br> O Lago (Tui) em cima do Fogo (Li) mostra dois elementos cujas forças estão em constante conflito, as linhas aconselhando como acabar com esta inimizade. Também Tui e Li representam as filhas, mas, aqui, a mais jovem usurpou sua posição. Daí a ideia de revolução. Ko trata da adaptação à mudança. '
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Revolução. Quando chegar a sua hora, acreditarão em você. <br> Sublime sucesso, pela perseverança. <br> O remorso se dissipa.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'Por mais insatisfatórias que sejam as condições presentes, é preciso esperar pelo momento azado para fazer mudanças. Você terá sucesso, desde que as mudanças não sejam egoístas.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'No Lago, o Fogo: símbolo da Revolução. <br> O homem nobre determina o calendário <br> E assinala a ordem das estações.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'As estações, como o fogo e a Água, destroem umas às outras à medida que avançam. Quem entende as mudanças nota seus sinais e é capaz de prever as necessidades vindouras dos tempos sob os sintomas aparentes. Assim plantam os lavradores prósperos. Assim foram vencidas as grandes batalhas.'
 
       break
 
     //Hexagrama 50 -
     case 50:
-      titulo.innerHTML = 'O Caldeirão'
+      titulo.innerHTML = '50 - TING - O Caldeirão'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Este hexagrama representa a alimentação e a transformação, enfatizando os assuntos materiais ordenados ou  subordinados a considerações abstratas. Embaixo, Suen (a Madeira, o Vento) alimenta Li (a Chama, o Fogo), sugerindo o cozer. Também se considerou que a forma do hexagrama representasse um caldeirão. Isto pode calar bem para condições estáveis, pois o pote de cozer chinês tinha três pernas (três sendo considerado um ideal de pureza e estabilidade). Nos negócios humanos, simbolizam o judiciário, o legislativo e o executivo. Há também muitos outros paralelos - pai, mãe, filho - marido, mulher, concubina, etc. '
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML = 'O Caldeirão. Suprema fortuna. <br> Sucesso.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'A ideia de alimentação é ampliada pelo atributo do hexagrama que sugere valores espirituais ou abstratos. Assim a ênfase de Ting é nos valores práticos dedicados a princípios mais altos.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Fogo sobre Madeira: símbolo do Caldeirão. <br> Assim o homem nobre consolida seu destino, <br> Adaptando-se à situação mais apropriada.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'A Madeira (mundana; terrosa) nutre o Fogo. Em sociedade, o Fogo simboliza a superestrutura moral e cultural e, no ser humano, a consciência espiritual. O terreno deve ser ordenado de acordo com o espiritual. Assim o sábio, convida realisticamente, de acordo com o grau de compreensão que tiver do destino. Pela composição harmoniosa destas forças, desfruta de boa fortuna e prgride espiritualmente.'
 
       break
 
     //Hexagrama 51 -
     case 51:
-      titulo.innerHTML = 'O Abalo, A Trovoada'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '51 - TCHEN - O Abalo, A Trovoada'
+
+      texto.innerHTML =
+        'Ambos os trigramassão Tchen. o Que Desperta, indicando um tempo favorável a uma segunda chance. As qualidades representadas por Tchen, podem ser uma força estimulante ou uma que terrifica e desorienta. A ênfase do conselho de Tchen é na moderação e na ação (ou reação) habilidosa e comedida.'
+
+      poemaJulgamento.innerHTML =
+        'O Abalo traz o sucesso. <br> Abalo: Ho! <br> Alegria: Ha, ha! <br> Mesmo se todos estejam aterrorizados numa distância de cem milhas, <br> O celebrante não deixa cair a colher e a copa rituais.'
+
+      julgamento.innerHTML =
+        'Uma vez que se compreenda o profundo choque sugerido por Tchen, fica-se imune a seus terrores. Num período de eventos desastrosos, imprevistos, esta compreensão garante que podemos executar as tarefas mais importantes e delicadas, e aceitar mesmo a catástrofe com um espírito harmonioso e eficaz.'
+
+      poemaImagem.innerHTML =
+        'Trovão sobre Trovão: símbolo do Abalo. <br> Assim, o homem nobre, com temerosa apreensão <br> Põe sua casa em ordem <br> E examina a si mesmo.'
+
+      imagem.innerHTML =
+        'Pode-se ser acometido pelo desastre e pelo colapso, mas para o sábio, isto é fonte de inspiração, para analisar seu coração e descobrir suas forças e fraquezas, e dispor corretamente seus negócios.'
+
       break
+
     //Hexagrama 52 -
     case 52:
-      titulo.innerHTML = 'Imobilização'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '52 - KEN - Imobilização'
+
+      texto.innerHTML =
+        'O trigrama Ken (a Montanha, ou a Imobilização) é duplicado, ou seja, uma cessão completa do movimento. Também em ambos os trigramas, as linhas yang moveram-se o máximo que podiam. A imobilidade perpetua-se. Este hexagrama tem fortes implicações para a consecução da paz interior, e trata das maneiras pelas quais ela pode ser obtida. Especialmente a meditação é indicada, porque em seus primeiros estágios as dificuldades em atingir a quietude mental necessária para o aperfeiçoamento são óbvias a todos. Este hexagrama é a bússola da escolachinesa de arte marcial Hsing-I, de inspiração budista.'
+
+      poemaJulgamento.innerHTML =
+        'Imobilização do dorso, <br> Até que não se possa mais sentir o corpo. <br> Entra em seu pátio. <br> E não consegue ver seus homens. Sem desonra. '
+
+      julgamento.innerHTML =
+        'Quem não conseguir impor uma calma interior, será apanhado pelas ansiedades e pontos de vista dos outros. O dorso imóvel é símbolo de uma calma profunda, da alma. Quando nenhuma atividade perturba a coluna, a mente inquieta e aos poucos vai se acalmando. Pode-se então começar a entender o valor e a ilusão por detrás do costume social e da sua própria natureza. Esta é a base da real sabedoria.'
+
+      poemaImagem.innerHTML =
+        'Montanha sobre Montanha: símbolo da Imobilização. <br> Assim os pensamentos do homem nobre <br> Não vagam além de sua posição atual.'
+
+      imagem.innerHTML =
+        'O aspecto mais difícil da meditação é a concentração. Não a camisa de força mental que uma criança aplica para conter sua mente dentro dos limites de uma matéria não apreciada, nem a atenção arrebatada de uma pessoa por seu passatempo, mas uma qualidade superior, flexível, que permite ao coração inquieto produzir pensamentos, sem se envolver passinalmente com eles. A quietude flexível é central para a realização nas artes marciais, reverenciada no oriente. Manifesta-se enquanto compostura e imobilidade frente ao perigo iminente, quebrada por uma resposta rápida e apropriada à ação do adversário, precisamente no momento azado. Assim, na vida, a quietude não é negação, mas a preparação mais eficaz para qualquer atividade intensa. É um tempo de planejar, à sua própria maneira, e de se preparar gradativamente para ações posteriores.'
+
       break
+
     //Hexagrama 53 -
     case 53:
-      titulo.innerHTML = 'Desenvolvimento Gradual'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '53 - TSIEN - Desenvolvimento Gradual'
+
+      texto.innerHTML =
+        'Este hexagrama implica progresso, de maneira comedida e ordenada. Acima de Suen, a filha mais velha; embaixo, Ken, o filho mais jovem. Ambos crescem e progridem passo a passo, da mesma maneira que uma árvore (Suen) sobre a Montanha (Ken). Ali ela deve tecer suas raízes em meio ao fino solo para garantir estabilidade, em sua posição exposta.'
+
+      poemaJulgamento.innerHTML =
+        'Desenvolvimento. Esposa-se uma moça. <br> Fortuna. <br> A perseverança é vantajosa.'
+
+      julgamento.innerHTML =
+        'O Julgamento indica a importância da moral social, costumes, tradição e integração do indivíduo com a comunidade, pela subjugação das inclinações egoístas. As formalidades que levam ao casamento evitavam a pressa e não podiam ser aceleradas por forças externas. Um desenvolvimento correto e gradual do relacionamento era considerado o primeiro requisito para uma união bem-sucedida.'
+
+      poemaImagem.innerHTML =
+        'Uma árvore sobre a Montanha: símbolo do Desenvolvimento. <br> Assim o homem nobre, tornando permanente sua virtude, <br> Aperfeiçoa a moral social.'
+
+      imagem.innerHTML =
+        'A ÁRvore sobre a Montanha cresce devagar, só gradualmente tornando-se um marco visível para as pessoas. A personalidade deve desenvolver-se pela perseverança paciente. O costume deve ser observado e a influência deve aumentar em etapas suaves. Tsien é favorável para os negócios que se desenvolvem passo a passo.'
+
       break
+
     //Hexagrama 54 -
     case 54:
-      hexagrama = 54
-      titulo.innerHTML = 'A Noiva'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '54 - KUEI MEI - A Noiva'
+
+      texto.innerHTML =
+        'Em cima, Tchen (o Trovão, o Que Desperta, o filho mais velho); embaixo, Tui (a filha mais jovem, o Lago, o Feliz). Assim, uma moça é o que é representado, seguindo um homem mais velho, com a alegria do lado dela e o estímulo do lado dele. A metáfora central da noiva prometida é altamente especializada. O costume permitia uma "vice-esposa" que era bem recebida na família, para atender às necessidades mais íntimas do marido. As admoestações morais resultanes desta metáfora concernem às condições sutis e delicadas que devem ser preenchidas nos relacionamentos. Numa interpretação puramente divinatória, a situação retratada enfatiza a impermanência, porque o status da esposa substituta ea santificado pela sanção social.'
+
+      poemaJulgamento.innerHTML =
+        'A Noiva. Qualquer iniciativa acarerta o infortúnio. <br> Nada que seja vantajoso.'
+
+      julgamento.innerHTML =
+        'Um enorme tato e reserva eram necessários para que a jovem "concubina" não usurpasse a influência da mulher, em geral mais madura, que cumpria o papel formal de esposa. Nos relacionamentos modernos, o sucesso depende da reserva e compromisso como expressão essencial de afeto. O significado mundano é que vocÊ está envolvidocom outros por causa da utilidade - o resultado de uma necessidade tácita, talvez, hipócrita, dos outros.'
+
+      poemaImagem.innerHTML =
+        'Trovão sobre o Lago.: símbolo da Noiva. <br> Assim o homem nobre compreende o efêmero <br> E vê tudo à luz da eternidade.'
+
+      imagem.innerHTML =
+        'A trovoada e a tempestada agitam o Lago, criando ondas iluminadas. Daqui resulta a atração: é luminosa e bela, mas não tem permanência. Uma vez que você entenda que sua posição é um tanto artificial, só tentará ser o que realmente pode. Obviamente, este hexagrama não é bom agouro para casamento ou empreendimentos permanentes. Deve-se ser austero em comportamento e expectativas.'
+
       break
+
     //Hexagrama 55 -
     case 55:
-      titulo.innerHTML = 'Plenitude'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '55 - FENG - Plenitude'
+
+      texto.innerHTML =
+        'Tchen (o Trovão, o Que Desperta) está em cima, e Li (a Chama, o Que se Apega) está embaixo. Juntos, sugerem um espírito lúcido, brilhante, dentro do movimento, e assim a ideia de brilhante sucesso. Outros atributos do trigrama enfatizam a abundância e o brilho, que só podem ter vida curta (por exemplo, o atributo da Chama apegando-se à Madeira simboliza um violento incêndio florestal). Tempo de desfrutar o que se tem, sem mais expectativas.'
+
+      poemaJulgamento.innerHTML =
+        'Plenitude: sucesso. <br> O rei atinge a Planitude. Nenhuma tristeza, agora. <br> É como o Sol ao meio-dia.'
+
+      julgamento.innerHTML =
+        'O Sol do meio-dia logo começará a declinar. Adicionalmente, seu efeito aquecedor e benevolente sobre o mundo sugere não egoísmo e bondade para com todos, e esta atitude previne a arrogância e a cóleraquando a boa sorte tiver passado.'
+
+      poemaImagem.innerHTML =
+        'Raio e Trovão juntos: símbolo da Plenitude. <br> Assim o homem nore julga as disputas <br> E executa os castigos.'
+
+      imagem.innerHTML =
+        'A claridade cheia de energia sugerida por Tchen e Li, respectivamente, mostra tanto como a abundância pode ser criada aplicando-se energia e discernimento, quanto como se pode garantir a própria prosperidade e evitar excessos uma vez isto atingido. O sábio evita a complacência e é moderado e judicioso ao lidar com seus negócios.'
+
       break
+
     //Hexagrama 56 -
     case 56:
-      titulo.innerHTML = 'O Estrangeiro'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
+      titulo.innerHTML = '56 - Li - O Estrangeiro'
+
+      texto.innerHTML = 'Li (o Fogo) sobre Ken (a Montanha) simbolizavam um incêndio sobrea montanha. Sem folhagem, abundante para alimentá-lo, terá vida curta. Os dois princípios - um imóvel, o outro móvel e cheio de energia - são estranhos um para o outro, e a natureza inquieta, incansável, do Fogo aumenta as implicações do movimento. A pessoa indicada por Liu é a do viajor, do vagabundo. As viagens podem ser subjetivas, ou reais, mas são sempre enraizadas numa motivação bem real, subjetiva.'
+
+      poemaJulgamento.innerHTML = 'O Estrangeiro. Sucesso pelas pequenas coisas. <br> Para quem persevera no caminho, vantagens. '
+
+      julgamento.innerHTML = 'Um viajor nunca conseguirá uma influência permanente.<br> Portanto, é preciso ser flexível, sincero e não fazer exigências, de modo a não tirar mais do que se dá. O Viajor deve ser reservado em seu comportamento, pois ele é vulnerável a pessoas agressivas ou impositivas. Outros, analogamente, são vulneráveis a ele, pois são condicionados pelas ilusões das circunstâncias seguras.'
+
+      poemaImagem.innerHTML = 'O Fogo queima sobre a Montanha: símbolo do Viajor <br> Assim o homem nobre age com lucidez e prudência <br> Ao impor punições <br> E não posterga nenhum litígio.'
+
+      imagem.innerHTML = 'O incêndio na montanha é um fenômeno temporário, simbolizando um homem que não se envolve com atitudes e eventos que complicariam sua vida ou atrasariam sua jornada. No todo, Liu é desfavorável a acordos ou empeendimentos permanentes ou cheios de vínculos.'
+
       break
+
     //Hexagrama 57 -
     case 57:
-      titulo.innerHTML = 'O Suave'
-      texto.innerHTML = ''
-      poemaJulgamento.innerHTML = ''
-      julgamento.innerHTML = ''
-      poemaImagem.innerHTML = ''
-      imagem.innerHTML = ''
-      break
+      titulo.innerHTML = '57 - SUEN - O Suave'
+
+      texto.innerHTML = 'Ambos os trigramas são Suen - o Vento, o Suave, ou a qualidade do que é Penetrante. A estes atributos, acresce-se a ideia da harmonia. Suen também simboliza a Madeira, ou vegetais. As plantas vergam-e ao vento, aqui dando a ideia de uma atividade flexível e harmoniosa. A condição implicada por Suen acarreta atitudes quietas, relaxadas, sutis. Ajuda a desenvolver uma atitude harmoniosa e em ressonância com as condições, coisas e pessoas. Suen favorece novos empreendimentos, particularmente aqueles que envolvem movimento.'
+
+      poemaJulgamento.innerHTML = 'O Suave. Sucesso pelas pequenas coisas. <br> É vantajoso tomar iniciativa. <br> É vantajoso ver o grande homem.'
+
+      julgamento.innerHTML = 'A influência do Suave estabelece condições duráveis através de um esforço modesto e gradual. Frequentemente requer a ajuda de pessoa mais forte ou influente. tempo de influenciar mais pela força do caráter que pela ação direta. Acarreta o perigo de excesso de envolvimento.'
+
+      poemaImagem.innerHTML = 'Vento sucedendo ao Vento: símbolo do Suave. <br> Assim o homem nobre difunde suas ordens <br> E executa seus negócios.'
+
+      imagem.innerHTML = 'Aqui, um objetivo bem definido, junto com o cuidado em sua execução. O sábio prepara o caminho para o que está para vir, ampliando sua influência por sugestão e liderança.'
+
+      break 
+
     //Hexagrama 58 -
     case 58:
       titulo.innerHTML = 'Alegria'
+      
       texto.innerHTML = ''
+      
       poemaJulgamento.innerHTML = ''
+      
       julgamento.innerHTML = ''
+      
       poemaImagem.innerHTML = ''
+      
       imagem.innerHTML = ''
+      
       break
-    //Hexagrama 59 -
+    
+      //Hexagrama 59 -
     case 59:
       titulo.innerHTML = 'Dispersão'
+      
       texto.innerHTML = ''
+      
       poemaJulgamento.innerHTML = ''
+      
       julgamento.innerHTML = ''
+      
       poemaImagem.innerHTML = ''
+      
       imagem.innerHTML = ''
+      
       break
-    //Hexagrama 60 -
+    
+      //Hexagrama 60 -
     case 60:
       titulo.innerHTML = 'Limitação'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 61 -
     case 61:
       titulo.innerHTML = 'A verdade interior'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 62 -
     case 62:
       titulo.innerHTML = 'Preponderância do Pequeno'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+      
       break
+
     //Hexagrama 63 -
     case 63:
       titulo.innerHTML = 'Após o Cumprimento'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+
       break
+
     //Hexagrama 64 -
     case 64:
       titulo.innerHTML = 'Antes do Cumprimento'
+
       texto.innerHTML = ''
+
       poemaJulgamento.innerHTML = ''
+
       julgamento.innerHTML = ''
+
       poemaImagem.innerHTML = ''
+
       imagem.innerHTML = ''
+      
       break
   }
 }
