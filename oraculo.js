@@ -1,3 +1,5 @@
+let oOraculo = document.getElementsById('oraculo')
+
 let md1 = null
 let md2 = null
 let md3 = null
@@ -190,6 +192,7 @@ function iching() {
     console.log('Sorteio 5 = ' + gen5)
   } else if (tentativa == 6) {
     //tabuleiro.classList.remove('show')
+    //Oraculo.style.visibility = 'visible';
 
     if (gen == 'yang') {
       tri6_1.style.backgroundColor = 'black'
@@ -234,10 +237,10 @@ function iching() {
     console.log('Trigrama 2 = ' + trigrama2)
 
     ideograma2.innerHTML = `${trigrama2}`
+    oOraculo.classList.add('show')
 
     return Hexagrama()
   }
-  return textOraculo()
 }
 
 function jogar() {
@@ -1618,15 +1621,20 @@ function textOraculo() {
     case 56:
       titulo.innerHTML = '56 - Li - O Estrangeiro'
 
-      texto.innerHTML = 'Li (o Fogo) sobre Ken (a Montanha) simbolizavam um incêndio sobrea montanha. Sem folhagem, abundante para alimentá-lo, terá vida curta. Os dois princípios - um imóvel, o outro móvel e cheio de energia - são estranhos um para o outro, e a natureza inquieta, incansável, do Fogo aumenta as implicações do movimento. A pessoa indicada por Liu é a do viajor, do vagabundo. As viagens podem ser subjetivas, ou reais, mas são sempre enraizadas numa motivação bem real, subjetiva.'
+      texto.innerHTML =
+        'Li (o Fogo) sobre Ken (a Montanha) simbolizavam um incêndio sobrea montanha. Sem folhagem, abundante para alimentá-lo, terá vida curta. Os dois princípios - um imóvel, o outro móvel e cheio de energia - são estranhos um para o outro, e a natureza inquieta, incansável, do Fogo aumenta as implicações do movimento. A pessoa indicada por Liu é a do viajor, do vagabundo. As viagens podem ser subjetivas, ou reais, mas são sempre enraizadas numa motivação bem real, subjetiva.'
 
-      poemaJulgamento.innerHTML = 'O Estrangeiro. Sucesso pelas pequenas coisas. <br> Para quem persevera no caminho, vantagens. '
+      poemaJulgamento.innerHTML =
+        'O Estrangeiro. Sucesso pelas pequenas coisas. <br> Para quem persevera no caminho, vantagens. '
 
-      julgamento.innerHTML = 'Um viajor nunca conseguirá uma influência permanente.<br> Portanto, é preciso ser flexível, sincero e não fazer exigências, de modo a não tirar mais do que se dá. O Viajor deve ser reservado em seu comportamento, pois ele é vulnerável a pessoas agressivas ou impositivas. Outros, analogamente, são vulneráveis a ele, pois são condicionados pelas ilusões das circunstâncias seguras.'
+      julgamento.innerHTML =
+        'Um viajor nunca conseguirá uma influência permanente.<br> Portanto, é preciso ser flexível, sincero e não fazer exigências, de modo a não tirar mais do que se dá. O Viajor deve ser reservado em seu comportamento, pois ele é vulnerável a pessoas agressivas ou impositivas. Outros, analogamente, são vulneráveis a ele, pois são condicionados pelas ilusões das circunstâncias seguras.'
 
-      poemaImagem.innerHTML = 'O Fogo queima sobre a Montanha: símbolo do Viajor <br> Assim o homem nobre age com lucidez e prudência <br> Ao impor punições <br> E não posterga nenhum litígio.'
+      poemaImagem.innerHTML =
+        'O Fogo queima sobre a Montanha: símbolo do Viajor <br> Assim o homem nobre age com lucidez e prudência <br> Ao impor punições <br> E não posterga nenhum litígio.'
 
-      imagem.innerHTML = 'O incêndio na montanha é um fenômeno temporário, simbolizando um homem que não se envolve com atitudes e eventos que complicariam sua vida ou atrasariam sua jornada. No todo, Liu é desfavorável a acordos ou empeendimentos permanentes ou cheios de vínculos.'
+      imagem.innerHTML =
+        'O incêndio na montanha é um fenômeno temporário, simbolizando um homem que não se envolve com atitudes e eventos que complicariam sua vida ou atrasariam sua jornada. No todo, Liu é desfavorável a acordos ou empeendimentos permanentes ou cheios de vínculos.'
 
       break
 
@@ -1634,128 +1642,168 @@ function textOraculo() {
     case 57:
       titulo.innerHTML = '57 - SUEN - O Suave'
 
-      texto.innerHTML = 'Ambos os trigramas são Suen - o Vento, o Suave, ou a qualidade do que é Penetrante. A estes atributos, acresce-se a ideia da harmonia. Suen também simboliza a Madeira, ou vegetais. As plantas vergam-e ao vento, aqui dando a ideia de uma atividade flexível e harmoniosa. A condição implicada por Suen acarreta atitudes quietas, relaxadas, sutis. Ajuda a desenvolver uma atitude harmoniosa e em ressonância com as condições, coisas e pessoas. Suen favorece novos empreendimentos, particularmente aqueles que envolvem movimento.'
+      texto.innerHTML =
+        'Ambos os trigramas são Suen - o Vento, o Suave, ou a qualidade do que é Penetrante. A estes atributos, acresce-se a ideia da harmonia. Suen também simboliza a Madeira, ou vegetais. As plantas vergam-e ao vento, aqui dando a ideia de uma atividade flexível e harmoniosa. A condição implicada por Suen acarreta atitudes quietas, relaxadas, sutis. Ajuda a desenvolver uma atitude harmoniosa e em ressonância com as condições, coisas e pessoas. Suen favorece novos empreendimentos, particularmente aqueles que envolvem movimento.'
 
-      poemaJulgamento.innerHTML = 'O Suave. Sucesso pelas pequenas coisas. <br> É vantajoso tomar iniciativa. <br> É vantajoso ver o grande homem.'
+      poemaJulgamento.innerHTML =
+        'O Suave. Sucesso pelas pequenas coisas. <br> É vantajoso tomar iniciativa. <br> É vantajoso ver o grande homem.'
 
-      julgamento.innerHTML = 'A influência do Suave estabelece condições duráveis através de um esforço modesto e gradual. Frequentemente requer a ajuda de pessoa mais forte ou influente. tempo de influenciar mais pela força do caráter que pela ação direta. Acarreta o perigo de excesso de envolvimento.'
+      julgamento.innerHTML =
+        'A influência do Suave estabelece condições duráveis através de um esforço modesto e gradual. Frequentemente requer a ajuda de pessoa mais forte ou influente. tempo de influenciar mais pela força do caráter que pela ação direta. Acarreta o perigo de excesso de envolvimento.'
 
-      poemaImagem.innerHTML = 'Vento sucedendo ao Vento: símbolo do Suave. <br> Assim o homem nobre difunde suas ordens <br> E executa seus negócios.'
+      poemaImagem.innerHTML =
+        'Vento sucedendo ao Vento: símbolo do Suave. <br> Assim o homem nobre difunde suas ordens <br> E executa seus negócios.'
 
-      imagem.innerHTML = 'Aqui, um objetivo bem definido, junto com o cuidado em sua execução. O sábio prepara o caminho para o que está para vir, ampliando sua influência por sugestão e liderança.'
+      imagem.innerHTML =
+        'Aqui, um objetivo bem definido, junto com o cuidado em sua execução. O sábio prepara o caminho para o que está para vir, ampliando sua influência por sugestão e liderança.'
 
-      break 
+      break
 
     //Hexagrama 58 -
     case 58:
-      titulo.innerHTML = 'Alegria'
-      
-      texto.innerHTML = ''
-      
-      poemaJulgamento.innerHTML = ''
-      
-      julgamento.innerHTML = ''
-      
-      poemaImagem.innerHTML = ''
-      
-      imagem.innerHTML = ''
-      
+      titulo.innerHTML = '58 - TUEI - Alegria'
+
+      texto.innerHTML =
+        'O trigrama Tuei (o Lago, a Filha Mais Jovem, a Alegria) duplicado, forma este hexagrama. A alegria da filja mais jovem mostra-se como um canto tradicional e alegre, quando ela vai tratar de suas ocupações. Tuei também representa o sucesso e a prosperidade. Assim, é favorável para comércio ou qualquer novas iniciativas. PAra os relacionamentos e empreendimentos que já existem, pode haver disputas e infelicidade.'
+
+      poemaJulgamento.innerHTML =
+        'Alegria. Sucesso. <br> A perseverança é vantajosa. '
+
+      julgamento.innerHTML =
+        'Indica-se uma alegria sem complicações, contagiosa. Se a alegria for ressaltada pela constância, influenciará mesmo o coração mais empedernido. Alegria exterior e perseverança interior, nesta condição, é o equilíbrio ideal de qualidades.'
+
+      poemaImagem.innerHTML =
+        'O LAgo sobre o LAgo: símbolo da Alegria. <br> Assim o homem nobre estuda e se exercita <br> Com seus companheiros.'
+
+      imagem.innerHTML =
+        'Os dois lagos unidos representam o efeito reforçador da alegria, conhecimento e sabedoria compartilhados entre as pessoas. A Imagem também indica a necessidade de medir sua alegria em relação a padrões objetivos. Nos relacionamentos, o prazer facilmente pode se tornar um sentimento egoísta, sem relação com o estado da outra parte. Entretanto, o praer compartilhado é prazer dobrado.'
+
       break
-    
-      //Hexagrama 59 -
+
+    //Hexagrama 59 -
     case 59:
-      titulo.innerHTML = 'Dispersão'
-      
-      texto.innerHTML = ''
-      
-      poemaJulgamento.innerHTML = ''
-      
-      julgamento.innerHTML = ''
-      
-      poemaImagem.innerHTML = ''
-      
-      imagem.innerHTML = ''
-      
+      titulo.innerHTML = '59 - HUAN - Dispersão'
+
+      texto.innerHTML =
+        'O vento (Suen) sobre a Água (Kan) indica a dispersão da Água - a espuma soprada de ondas pelas rajadas de vento. Uma dissolução e deperdício de energias é a evocação mais óbvia aqui, mas Huan também mostra como a energia armazenada ou bloqueada pode ser libertada pela suavidade.'
+
+      poemaJulgamento.innerHTML =
+        'Dispersão. Sucesso. <br> O rei se aproxima do templo. <br> É vantajoso atravessar as grandes águas. <br> A perseverança é vantajosa. '
+
+      julgamento.innerHTML =
+        'A ênfase aqui é na dissolução da separatividade ao se compartilhar atividades de natureza elevada, como o ritual religioso. O rei, aqui, simboliza a pessoa de altas qualidades ou autoridade, necessária para unir os homens divididos pelo egoísmo. O trigrama superior também significa Madeira, sugerindo barcos sobre a água. Isto, juntamente com o conselho de "cruzar as grandes águas", sugere benefícios através de viagens ou mudanças.'
+
+      poemaImagem.innerHTML =
+        'O Vento soprando sobre a Água: símbolo da Dispersão. <br> Assim os antigos reis sacrificavam a Deus <br> E erigiam templos.'
+
+      imagem.innerHTML =
+        'Ao passo que o Julgamento sugere homens cuja dureza é quebrada por um impulso caridoso, aqui o dador da caridade é enfatizado, que une os outros na piedade comum. A ideia de continuidade é sugerida pela imagem da construção do templo.'
+
       break
-    
-      //Hexagrama 60 -
+
+    //Hexagrama 60 -
     case 60:
-      titulo.innerHTML = 'Limitação'
+      titulo.innerHTML = '60 - TCHIEH - Limitação'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Kan (a Água, o Perigo) sobre Tuei (o Lago, a Alegria) sugere um lago que transbordará, se não for controlado. O esforço por ideais e a esperança de perfeição não são em si realistas, mas, sem a consciência da limitação e sem delimitação de um comportamento pessoal, são sonhos desesperados.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Limitação. Sucesso. <br> Não se deve perseverar na limitação amarga.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'Limitações, autocontrole e economia são nobres, qualidades e que podem aliviar a pobreaza e aumentar seus recursos. Mas se a limitação torna-se sua inimiga, ou do funcionamento básico das circunstâncias, torna-se frustrante e destrutiva. Assim, deve-se manter um senso de proporção.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Água sobre o Lago: símbolo da Limitação. <br> Assim o homem nobre cria número e medida <br> E procura saber o que é a virtude e a conduta correta.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'O lago tem limites, mas a água, não - assim, deve ser contida. Só pela determinação de seus talentos e fraquezas, e pelas limitações do caminho à frente, pode-se seguir um caminho em particular e evitar ser impelido daqui para lá por circunstãncias temporárias. No entanto não sufoqueo seu potencial.'
 
       break
 
     //Hexagrama 61 -
     case 61:
-      titulo.innerHTML = 'A verdade interior'
+      titulo.innerHTML = '61 - TCHUNG FU - A verdade interior'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Tuei (a filha mais jovem; a Alegria) embaixo de Suen (a filha mais velha; o Suave) sugere uma bondosa irmã mais velha cuja influência faz com que a moça a siga alegremente. Assim, Tchung Fu indica um tempo de confiança e sinceridade. Através da imagemdo vento (Suen) arrepiando as águas do Lago (Tuei) o hexagrama apresenta a ideia da manifestação do invisível. O poderoso incita o fracoou o inferior pela gentileza.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'A Verdade Interior. Porco e peixe. <br> Fortuna. <br> é cantajoso cruzar as grandes águas. <br> A perseverança é vantajosa.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'É impossível infkuenciar até mesmo as pessoas ou circunstâncias mais grosseiras e obstinadas - simbolizdas pelo porco e o peixe - pelo poder de uma verdade universal, a que tudo responde. Isto não é suscitado pelo interesse comum, simpatia, empatia, ou algum vínculo esotérico, mas pela consciência do espírito divino que transcende diferenças culturais ou valores pessoais, e que reside em tudo e todos.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Vento sobre o Lago: símbolo da Verdade Interior. <br> Assim o homem nobre julga os litígios. <br> E retarda a execução das penas.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'O antigo sistema da justiça chinesa era conduzido pelo exame de um magistrado. Era considerdo que um interrogatório penetrante produzia uma compreensão que evitaria punições desnecessárias. Aqui, destaca-se a compreensão penetrante que transcende diferenças sociais, culturais ou outras, entre as pessoas.'
 
       break
 
     //Hexagrama 62 -
     case 62:
-      titulo.innerHTML = 'Preponderância do Pequeno'
+      titulo.innerHTML = '62 - HSIAO KUO - Preponderância do Pequeno'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Tchen (o Trovão, o Estimulante) está em cima de Ken (a Montanha, a Imobilização), indicando  força que é capturada pela força de cima. Esta ideia de força ou virtude contida por elementos fracos ou inferiores representa alguém incapaz de satisfazer as demandas de sua situação. Acusa-se aqui a mesquinharia ou a falta de um propósito bem definido.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Preponderância do Pequeno. Sucesso. <br> Pode-se fazer pequenas coisas, não se pode fazer grandes coisas. <br> A persevrança é vantajosa. <br> O pássaro que voa traz a mensagem: <br> Esforçar-se para subir não é bom; <br> Ficar em baixo é aconselhável. <br> Grande fortuna.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'A modestia oriunda do reconhecimento de suas próprias limitações é uma virtude, mas poderá ser vista como fraqueza, se não for acompanhada por autoconsciência. Deve-se compreender as exigências de sua situação , e não esperar grandes sucessos. Como a ave  cuja canção pressagia sua descida, não devemos desperdiçar nossas forças agora, ansiando por grandes realizações.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Trovão sobre a montanha: símbolo da Preponderância do Pequeno. <br> Assim o homem nobre em sua conduta dá predominância ao respeito. <br> No luto, dá predominância à dor. <br> Nas despesas, dá predominância à economia.'
 
-      imagem.innerHTML = ''
-      
+      imagem.innerHTML =
+        'O sábio, como um homem nas montanhas, ao ouvir o trovão diretamente acima, reconhece a mudança no tempo. Assim dá estrita atenção à forma, tendendo sempre à maior humildade, além o estritamente necessário. Se se ascender, só se poderá  cair, aqui'
+
       break
 
     //Hexagrama 63 -
     case 63:
-      titulo.innerHTML = 'Após o Cumprimento'
+      titulo.innerHTML = '63 - KHI TSI - Após o Cumprimento'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Neste hexagrama, linhas interrompidas e cheias estão distribuídas igualmente. Os trigramas, Kan (em cima , a Água) e Li (o Fogo) produzem a ideia de cumprimento, pela imagem da água em ebulição. Assim, duas ideias estão presentes: por um lado, tempo de sucesso, harmonia e desfrute; por outro, a natureza equilibrada de Khi Tsi (como as imagens da Lua cheia ou do Sol do meio dia) significa influência e sucesso que logo minguarão. Este fluxo incessante é o significado básico de todo o I Ching.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Após o Cumprimento. Sucesso nas coisas pequenas. <br> A perseverança é vantajosa. <br> De início, fortuna. <br> Ao fim, desordens.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'Este é um momento em que só os assuntos pequenos podem ter sucesso. Analogamente, o sucesso e o desabrochar criativo acarretado por este pico de energia é um tempo de atender aos assuntos menores, e não se deve permitir que sua boa fortuna facilite descuidos ou atitudes relaxadas. Não é preciso sofrer indevidamente, se se entender que, à fruição, segue-se o decaimento.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Água sobre Fogo: símbolo de Após o Cumprimento. <br> Assim o homem nobre contempla a natureza da infelicidade <br> E arma-se antecipadamente contra ela.'
 
-      imagem.innerHTML = ''
+      imagem.innerHTML =
+        'Água e fogo aqui simbolizam uma tensão criativa que produz bons resultados. Mas as duas forças, por natureza, são hostis, e sua harmonização é coisa frágil. O Julgamento adverte que, o que quer que tenha sucesso ou esteja já estabelecido, deve ser cuidado com toda a atenção e mantido sem expansão. O que é incompleto deve ser acabado, ou desfrutado sem tardança.'
 
       break
 
     //Hexagrama 64 -
     case 64:
-      titulo.innerHTML = 'Antes do Cumprimento'
+      titulo.innerHTML = '64 - UEI TSI - Antes do Cumprimento'
 
-      texto.innerHTML = ''
+      texto.innerHTML =
+        'Li (a Chama) sobre Kan (a Água) aqui simboliza o Sol nascendodo mar, de madrugada. Muito embora este seja o último hexagrama, as linhas não estão em seus lugares certos. O tempo indicado é a primavera, e assim, tempo de esforço e preparação para o cumprimento de todas as coisas. Este hexagrama é favorável para projetos novos - contém uma grande esperança para o futuro.'
 
-      poemaJulgamento.innerHTML = ''
+      poemaJulgamento.innerHTML =
+        'Antes do Cumprimento. Sucesso. <br> Mas se a raposinha, quase terminando de passar, molha a cauda, <br> Não haverá nada que seja vantajoso.'
 
-      julgamento.innerHTML = ''
+      julgamento.innerHTML =
+        'A raposinha é uma imagem folclórica chinesa. Se não avançar cuidadosamente, poderá afundar, ou machucar-se no último momento. Mais genericamente, a imagem sugere uma situação estranha, ou potencialmente hostil. Você pode ter tido sorte, evitando todo mal até agora, mas só atitudes conscientemente contemplativas garantirão sua posição. Falta coesão à situação, ou uma força unificadora. Talvez isto possa ser oferecido por um ideal, ou ambição compartilhados.'
 
-      poemaImagem.innerHTML = ''
+      poemaImagem.innerHTML =
+        'Fogo sobre Água: símbolo de Antes do Cumprimento. <br> Assim o homem nobre é circunspecto quando discerne as coisas. <br> A fim de que cada uma encontre o seu lugar.'
 
-      imagem.innerHTML = ''
-      
+      imagem.innerHTML =
+        'A orientação do Fogo é para cima, ao passo que a orientção da Água é para baixo. Na relação simbolizada por Uei Tsi, são irreconciliáveis. VocÊ deve pois fazer um exame realista da naturezadas circunstâncias em que estiver.'
+
       break
   }
 }
